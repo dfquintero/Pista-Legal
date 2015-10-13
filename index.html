@@ -1,10 +1,50 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <title>Pista Legal</title>
 	<meta charset="utf-8" />
 </head>
 <body>
+    <div data-role="page" id="intro1">
+        <div data-role="footer" data-position="fixed" style="background-color:rgb(0, 0, 0)">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a class="ui-btn ui-btn-active ui-icon-carat-r ui-btn-icon-right ui-nodisc-icon" href="#Pregunta" style="background-color:rgba(255, 255, 255, 0.30)">Siguiente</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="Pregunta">
+        <div data-role="header">
+
+        </div>
+        <div role="main" class="ui-content">
+
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <center>
+                <a class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-search ui-btn-icon-left ui-btn-a" href="#popupMenu" data-rel="popup" data-transition="slideup" data-theme="b">Pregunta</a>
+            </center>
+            <br />
+            <p>Aqui va el contador de puntos</p>
+        </div>
+        <div id="popupMenu" data-role="popup" data-theme="b" data-position-to="window">
+            <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider"><p style="text-wrap:initial">AQUI VA LA PREGUNTA</p><li>
+                <li><a href="#">Respuesta a</a></li>
+                <li><a href="#">Respuesta b</a></li>
+                <li><a href="#">Respuesta c</a></li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 </html>
