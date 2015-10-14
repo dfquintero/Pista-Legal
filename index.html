@@ -31,20 +31,55 @@
         </div>
         <div data-role="footer" data-position="fixed">
             <center>
-                <a class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-search ui-btn-icon-left ui-btn-a" href="#popupMenu" data-rel="popup" data-transition="slideup" data-theme="b">Pregunta</a>
+                <a id="pregunta" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-search ui-btn-icon-left ui-btn-a" href="#popupMenu" data-rel="popup" data-transition="slideup" data-theme="b">Pregunta</a>
             </center>
             <br />
             <p>Aqui va el contador de puntos</p>
         </div>
         <div id="popupMenu" data-role="popup" data-theme="b" data-position-to="window">
             <ul data-role="listview" data-inset="true">
-                <li data-role="list-divider"><p style="text-wrap:initial">AQUI VA LA PREGUNTA</p><li>
+                <li data-role="list-divider"><p id="pregunta1" style="text-wrap:initial">AQUI VA LA PREGUNTA</p><li>
                 <li><a href="#">Respuesta a</a></li>
                 <li><a href="#">Respuesta b</a></li>
                 <li><a href="#">Respuesta c</a></li>
             </ul>
         </div>
     </div>
+
+    <script>
+        /*$(function(){
+            //Tu código jQuery
+            var random;
+            var pregunta = ['pregunta1',
+                            'pregunta2',
+                            'pegunta3',
+                            'pregunta4',
+                            'pregunta5']
+           random = Math.floor((Math.random() * pregunta.length) + 1); 
+                            
+            //alert("Has pulsado el enlace...nAhora serás enviado a DesarrolloWeb.com");
+        })*/
+
+        $("a").click(function(evento){
+            if ($(this).attr('id') === "pregunta") {
+            var random;
+            var pregunta = ['pregunta1',
+                            'pregunta2',
+                            'pegunta3',
+                            'pregunta4',
+                            'pregunta23',
+                            'pregunta24',
+                            'pegunta32',
+                            'pregunta41',
+                            'pregunta53']
+           random = Math.floor((Math.random() * pregunta.length) + 0); 
+                            
+
+           $( "#pregunta1" ).text(pregunta[random]); 
+
+           };
+        });
+    </script>
 
 </body>
 </html>
