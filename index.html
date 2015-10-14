@@ -8,7 +8,7 @@
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
     <title>Pista Legal</title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
 </head>
 <body>
     <div data-role="page" id="intro1">
@@ -16,33 +16,56 @@
             <div data-role="navbar">
                 <ul>
                     <li>
-                        <a class="ui-btn ui-btn-active ui-icon-carat-r ui-btn-icon-right ui-nodisc-icon" href="#Pregunta" style="background-color:rgba(255, 255, 255, 0.30)">Siguiente</a>
+                        <a class="ui-btn ui-btn-active ui-icon-carat-r ui-btn-icon-right ui-nodisc-icon" href="#Pista" style="background-color:rgba(255, 255, 255, 0.30)">Siguiente</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div data-role="page" id="Pregunta">
+    <div data-role="page" id="Pista">
         <div data-role="header">
-
+            <h1>ahora aqui va el contador de puntos</h1>
         </div>
         <div role="main" class="ui-content">
-
-        </div>
-        <div data-role="footer" data-position="fixed">
-            <center>
-                <a id="pregunta" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-search ui-btn-icon-left ui-btn-a" href="#popupMenu" data-rel="popup" data-transition="slideup" data-theme="b">Pregunta</a>
-            </center>
+            esto es el contenido (background y muñequito de Jesús)
             <br />
-            <p>Aqui va el contador de puntos</p>
+            <a href="#popupSI" data-rel="popup" data-transition="slideup">este es el popup SI</a>
+            <br />
+            <a href="#popupNO" data-rel="popup" data-transition="slidedown">este es el popup NO</a>
         </div>
-        <div id="popupMenu" data-role="popup" data-theme="b" data-position-to="window">
-            <ul data-role="listview" data-inset="true">
-                <li data-role="list-divider"><p id="pregunta1" style="text-wrap:initial">AQUI VA LA PREGUNTA</p><li>
-                <li><a href="#">Respuesta a</a></li>
-                <li><a href="#">Respuesta b</a></li>
-                <li><a href="#">Respuesta c</a></li>
-            </ul>
+        <div data-role="footer" data-position="fixed" style="background-color:lightgray; max-height:40%">
+            <h2>Aqui va la pregunta</h2>
+            <div class="ui-grid-b ui-responsive" style="background-color:green">
+                <div class="ui-block-a">
+                    <a class="ui-body ui-body-d ui-btn" style="width:100%; margin:0px; padding:5px 0px; height:100%">
+                        Respuesta 1
+                    </a>
+                </div>
+                <div class="ui-block-b" style="background-color:floralwhite">
+                    <a class="ui-body ui-body-d ui-btn" style="width:100%; margin:0px; padding:5px 0px; height:100%">
+                        Respuesta 2
+                    </a>
+                </div>
+                <div class="ui-block-c" style="background-color:royalblue">
+                    <a class="ui-body ui-body-d ui-btn" style="width:100%; margin:0px; padding:5px 0px; height:100%">
+                        Respuesta 3
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="popupSI" data-role="popup" data-position-to="window" style="background-color:rgba(0, 155, 0, 0.75)">
+            <center>
+                <h3>¡MUY BIEN!</h3>                
+                <img src="img/popup/SIjesus.png" />
+                <a class="ui-btn" href="#">Continuar ></a>
+            </center>
+        </div>
+        <div id="popupNO" data-role="popup" data-position-to="window" style="background-color:rgba(155, 0, 0, 0.75)">
+            <center>
+                <h3>¡OUCHH!</h3>
+                <img src="img/popup/NOjesus.png" />
+                <a class="ui-btn" href="#">Continuar ></a>
+            </center>
         </div>
     </div>
 
@@ -55,29 +78,29 @@
                             'pegunta3',
                             'pregunta4',
                             'pregunta5']
-           random = Math.floor((Math.random() * pregunta.length) + 1); 
-                            
+           random = Math.floor((Math.random() * pregunta.length) + 1);
+
             //alert("Has pulsado el enlace...nAhora serás enviado a DesarrolloWeb.com");
         })*/
 
-        $("a").click(function(evento){
+        $("a").click(function (evento) {
             if ($(this).attr('id') === "pregunta") {
-            var random;
-            var pregunta = ['pregunta1',
-                            'pregunta2',
-                            'pegunta3',
-                            'pregunta4',
-                            'pregunta23',
-                            'pregunta24',
-                            'pegunta32',
-                            'pregunta41',
-                            'pregunta53']
-           random = Math.floor((Math.random() * pregunta.length) + 0); 
-                            
+                var random;
+                var pregunta = ['pregunta1',
+                                'pregunta2',
+                                'pegunta3',
+                                'pregunta4',
+                                'pregunta23',
+                                'pregunta24',
+                                'pegunta32',
+                                'pregunta41',
+                                'pregunta53']
+                random = Math.floor((Math.random() * pregunta.length) + 0);
 
-           $( "#pregunta1" ).text(pregunta[random]); 
 
-           };
+                $("#pregunta1").text(pregunta[random]);
+
+            };
         });
     </script>
 
