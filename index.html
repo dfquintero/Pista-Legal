@@ -11,7 +11,7 @@
     <meta charset="utf-8" />
 </head>
 <body>
-    <div data-role="page" id="intro1">
+    <div data-role="page" id="intro1" style="background-image:url(img/bg.png); background-size:cover; background-position:bottom">
         <div data-role="footer" data-position="fixed" style="background-color:rgb(0, 0, 0)">
             <div data-role="navbar">
                 <ul>
@@ -22,11 +22,11 @@
             </div>
         </div>
     </div>
-    <div data-role="page" id="Pista">
+    <div data-role="page" id="Pista" style="background-image:url(img/bg.png); background-size:cover; background-position:bottom">
         <div data-role="header">
             <h1>ahora aqui va el contador de puntos</h1>
         </div>
-        <div role="main" class="ui-content">
+        <div role="main" class="ui-content" style="background-color:red">
             esto es el contenido (background y muñequito de Jesús)
             <br />
             <a href="#popupSI" data-rel="popup" data-transition="slideup">este es el popup SI</a>
@@ -35,8 +35,7 @@
         </div>
         <div data-role="footer" data-position="fixed" style="background-color:lightgray; overflow:hidden">
 
-            <h1>I'm a header <br />
-            dasdsadfafdadas  </h1>
+            <h1>Aqui va la pregunta</h1>
             <a href="#mypanel" data-icon="gear" class="ui-btn ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-icon-notext ui-btn-right" style="margin:0px; border:0px">MENU</a>
 
             <div class="ui-grid-b ui-responsive" style="background-color:green">
@@ -71,12 +70,11 @@
                 <a class="ui-btn" href="#">Continuar ></a>
             </center>
         </div>
-        <div data-role="panel" id="mypanel" data-theme="b" data-display="reveal" data-position="right">
-            <!-- panel content goes here -->
+        <div data-role="panel" id="mypanel" data-theme="b" data-display="overlay" data-position="right">
+             <!--panel content goes here--> 
             panel
         </div>
     </div>
-
     <script>
         /*$(function(){
             //Tu código jQuery
