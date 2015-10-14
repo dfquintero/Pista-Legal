@@ -9,6 +9,7 @@
 
     <title>Pista Legal</title>
     <meta charset="utf-8" />
+
 </head>
 <body>
     <div data-role="page" id="intro1" style="background-image:url(img/bg.png); background-size:cover; background-position:bottom">
@@ -26,31 +27,33 @@
         <div data-role="header">
             <h1>ahora aqui va el contador de puntos</h1>
         </div>
-        <div role="main" class="ui-content" style="background-color:red">
+        <div role="main" class="ui-content" style="background-color:rgba(255, 255, 255, 0.40)">
             esto es el contenido (background y muñequito de Jesús)
             <br />
             <a href="#popupSI" data-rel="popup" data-transition="slideup">este es el popup SI</a>
             <br />
             <a href="#popupNO" data-rel="popup" data-transition="slidedown">este es el popup NO</a>
+            <br />
+            <a href="#FIN1" data-transition="slidedown">final</a>
         </div>
-        <div data-role="footer" data-position="fixed" style="background-color:lightgray; overflow:hidden">
+        <div data-role="footer" data-position="fixed" style="background-color:rgba(0, 0, 0, 0.50); overflow:hidden">
 
-            <h1>Aqui va la pregunta</h1>
+            <h1 style="text-shadow:none; color:white">Aqui va la pregunta</h1>
             <a href="#mypanel" data-icon="gear" class="ui-btn ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-icon-notext ui-btn-right" style="margin:0px; border:0px">MENU</a>
 
-            <div class="ui-grid-b ui-responsive" style="background-color:green">
-                <div class="ui-block-a">
-                    <a class="ui-body ui-body-d ui-btn" style="width:100%; margin:0px; padding:5px 0px; height:100%">
+            <div class="ui-grid-b ui-responsive" style="background-color:transparent">
+                <div class="ui-block-a" style="background-color:transparent">
+                    <a class="ui-body ui-body-d ui-btn" style="width:100%; margin:0px; padding:5px 0px; height:100%; background-color:rgba(255, 255, 255, 0.50)">
                         Respuesta 1
                     </a>
                 </div>
-                <div class="ui-block-b" style="background-color:floralwhite">
-                    <a class="ui-body ui-body-d ui-btn" style="width:100%; margin:0px; padding:5px 0px; height:100%">
+                <div class="ui-block-b" style="background-color:transparent">
+                    <a class="ui-body ui-body-d ui-btn" style="width:100%; margin:0px; padding:5px 0px; height:100%; background-color:rgba(255, 255, 255, 0.40)">
                         Respuesta 2
                     </a>
                 </div>
-                <div class="ui-block-c" style="background-color:royalblue">
-                    <a class="ui-body ui-body-d ui-btn" style="width:100%; margin:0px; padding:5px 0px; height:100%">
+                <div class="ui-block-c" style="background-color:transparent">
+                    <a class="ui-body ui-body-d ui-btn" style="width:100%; margin:0px; padding:5px 0px; height:100%; background-color:rgba(255, 255, 255, 0.30)">
                         Respuesta 3
                     </a>
                 </div>
@@ -65,15 +68,24 @@
         </div>
         <div id="popupNO" data-role="popup" data-position-to="window" style="background-color:rgba(155, 0, 0, 0.75)" data-overlay-theme="a">
             <center>
-                <h3>¡OUCHH!</h3>
+                <h3 style="color:#ffffff; text-shadow:none">¡OUCHH!</h3>
                 <img src="img/popup/NOjesus.png" />
-                <a class="ui-btn" href="#">Continuar ></a>
+                <a class="ui-btn" href="#" style="margin:4px">Continuar ></a>
             </center>
         </div>
         <div data-role="panel" id="mypanel" data-theme="b" data-display="overlay" data-position="right">
              <!--panel content goes here--> 
             panel
         </div>
+    </div>
+    <div data-role="page" id="FIN1" style="background-image:url(img/bg_beach.png); background-size:cover; background-position:center">
+        <a href="#FIN2"  data-transition="fade">final</a>
+    </div>
+    <div data-role="page" id="FIN2" style="background-image:url(img/bg_beach.png); background-size:cover; background-position:center">
+        <a href="#FIN3"  data-transition="fade">final</a>
+    </div>
+    <div data-role="page" id="FIN3" style="background-image:url(img/bg_beach.png); background-size:cover; background-position:center">
+        CONTINUARA.....
     </div>
     <script>
         /*$(function(){
