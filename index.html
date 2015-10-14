@@ -33,8 +33,12 @@
             <br />
             <a href="#popupNO" data-rel="popup" data-transition="slidedown">este es el popup NO</a>
         </div>
-        <div data-role="footer" data-position="fixed" style="background-color:lightgray; max-height:40%">
-            <h2>Aqui va la pregunta</h2>
+        <div data-role="footer" data-position="fixed" style="background-color:lightgray; overflow:hidden">
+
+            <h1>I'm a header <br />
+            dasdsadfafdadas  </h1>
+            <a href="#mypanel" data-icon="gear" class="ui-btn ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-icon-notext ui-btn-right" style="margin:0px; border:0px">MENU</a>
+
             <div class="ui-grid-b ui-responsive" style="background-color:green">
                 <div class="ui-block-a">
                     <a class="ui-body ui-body-d ui-btn" style="width:100%; margin:0px; padding:5px 0px; height:100%">
@@ -53,19 +57,23 @@
                 </div>
             </div>
         </div>
-        <div id="popupSI" data-role="popup" data-position-to="window" style="background-color:rgba(0, 155, 0, 0.75)">
+        <div id="popupSI" data-role="popup" data-position-to="window" style="background-color:rgba(0, 155, 0, 0.75)" data-overlay-theme="a">
             <center>
-                <h3>¡MUY BIEN!</h3>                
+                <h3>¡MUY BIEN!</h3>
                 <img src="img/popup/SIjesus.png" />
                 <a class="ui-btn" href="#">Continuar ></a>
             </center>
         </div>
-        <div id="popupNO" data-role="popup" data-position-to="window" style="background-color:rgba(155, 0, 0, 0.75)">
+        <div id="popupNO" data-role="popup" data-position-to="window" style="background-color:rgba(155, 0, 0, 0.75)" data-overlay-theme="a">
             <center>
                 <h3>¡OUCHH!</h3>
                 <img src="img/popup/NOjesus.png" />
                 <a class="ui-btn" href="#">Continuar ></a>
             </center>
+        </div>
+        <div data-role="panel" id="mypanel" data-theme="b" data-display="reveal" data-position="right">
+            <!-- panel content goes here -->
+            panel
         </div>
     </div>
 
