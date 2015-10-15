@@ -156,16 +156,28 @@
                console.log(seleccionres.respuestauno[2]);
                if (seleccionres.respuestauno[2]) {
                 console.log("sep");
-                $("#popupSI").submit()
+                document.getElementById("respuestauno").href="#popupSI"
                } else
                {console.log("nop")
-                $("#popupNO").submit()}
+                document.getElementById("respuestauno").href="#popupNO"}
                break;
             
-               case 'respuestados': console.log(seleccionres.respuestados[2]);
+               case 'respuestados': 
+               if (seleccionres.respuestados[2]) {
+                console.log("sep");
+                document.getElementById("respuestados").href="#popupSI"
+               } else
+               {console.log("nop")
+                document.getElementById("respuestados").href="#popupNO"}
                break;
             
-               case 'respuestatres': console.log(seleccionres.respuestatres[2]);
+               case 'respuestatres': 
+               if (seleccionres.respuestatres[2]) {
+                console.log("sep");
+                document.getElementById("respuestatres").href="#popupSI"
+               } else
+               {console.log("nop")
+                document.getElementById("respuestatres").href="#popupNO"}
                break;
             
             }
