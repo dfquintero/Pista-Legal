@@ -1,11 +1,11 @@
         var preguntas = [{pregunta : "La compañía LACR es un inversionista extranjero, con sede en Panamá, la cual nos ofrece realizar una transacción en efectivo con el fin de comprar acciones de la compañía, e indican que realizaran la compra por el doble del valor que cuestan las acciones, que nos aconsejas que debemos hacer?" , 
-                          respuestauno :   [ "respuesta1",
+                          respuestauno :   [ "respuestauno",
                                              "Rechazar la oferta  y Realizar un reporte operación sospechosa ante la UIAF",
                                              true],
-                          respuestados :   [ "respuesta2",
+                          respuestados :   [ "respuestados",
                                              "Acceder a la oferta",
                                              false],
-                          respuestatres :   [ "respuesta3",
+                          respuestatres :   [ "respuestatres",
                                               "solicitar una nueva cita con el inversionista para verificar el monto de acciones a adquirir",
                                               false]                                         
 
@@ -15,61 +15,61 @@
 
                         },
                         {pregunta : " La oficina de Envigado, ofrece comprar el 30% de las acciones de la compañía y ofrece invertir el 10% en planta automotor que nos aconsejas que debemos hacer?" , 
-                        respuestauno :   [ "respuesta1",
+                        respuestauno :   [ "respuestauno",
                                            "Rechazar la oferta y denunciar a la fiscalía",
                                            true],
-                        respuestados :   [ "respuesta1",
+                        respuestados :   [ "respuestados",
                                             "Ofrecer invertir en una de las compañías aliadas",
                                             false],
-                        respuestatres :   [ "respuesta",
+                        respuestatres :   [ "respuestatres",
                                             "solicitar una nueva cita con el gerente de la oficina de envigado para establecer los acuerdos comerciales",
                                             false]       
 
                         },
                         {pregunta : "De las siguientes opciones cual es la acertada para definir el significado de lavado de activos:" ,
-                         respuestauno :   [ "respuesta1",
+                         respuestauno :   [ "respuestauno",
                                             "Procedimiento mediante el cual una persona busca encubrir dineros captados del público en forma irregular.",
                                             false],
-                         respuestados :   [ "respuesta1",
+                         respuestados :   [ "respuestados",
                                             "Procedimiento mediante el cual organizaciones criminales buscan dar apariencia de legalidad a los recursos generados de sus actividades ilícitas.",
                                             true],
-                         respuestatres :   [ "respuestay",
+                         respuestatres :   [ "respuestatres",
                                              "Procedimiento mediante el cual una persona busca encubrir dineros captados del público en forma irregular",
                                              false]       
 
                         },
                         {pregunta : "La efectiva implementación de SIPLAFT le permite a Servientrega" ,
-                         respuestauno :   [ "respuesta1",
+                         respuestauno :   [ "respuestauno",
                                             "Proteja sus activos para asegurar el cumplimiento de su misión y objetivos estratégicos",
                                             true],
-                         respuestados :   [ "respuesta1",
+                         respuestados :   [ "respuestados",
                                             "Ejercer un control previo selectivo en las actividades financieras de sus procesos internos.",
                                             false],
-                         respuestatres :   [ "respuestay",
+                         respuestatres :   [ "respuestatres",
                                             "Mantener excelentes relaciones con los gobiernos internacionales",
                                             false]       
 
                         },
                         {pregunta : "Cuál de las siguientes opciones no es un objetivo del SIPLAFT para la organización Servientrega" ,
-                         respuestauno :   [ "respuesta1",
+                         respuestauno :   [ "respuestauno",
                                             "Asegurar que Servientrega, no tenga vinculación alguna en actividades de Lavados de activos.",
                                             false],
-                         respuestados :   [ "respuesta1",
+                         respuestados :   [ "respuestados",
                                             "Mitigar el ingreso de personal desmovilizado de grupos armados ilegales",
                                             true],
-                         respuestatres :   [ "respuestay",
+                         respuestatres :   [ "respuestatres",
                                              "Asegurar que Servientrega, no tenga vinculación alguna en actividades de financiación al terrorismo.",
                                              false]       
 
                         },
                         {pregunta : "Diga cuál de los siguientes es un mecanismo de prevención establecido por Servientrega para el lavados de activos y financiación del terrorismo" ,
-                         respuestauno :  ["respuesta1",
+                         respuestauno :  ["respuestauno",
                                           "Conocimiento de los proveedores del negocio.",
                                            false],
-                         respuestados :  ["respuesta1",
+                         respuestados :  ["respuestados",
                                           "Conocimiento de los contratistas del negocio.",
                                           false],
-                         respuestatres : ["respuesta1",
+                         respuestatres : ["respuestatres",
                                           "Conocimiento de los asociados al negocio",
                                         true]           
 
@@ -77,13 +77,13 @@
 
                         },
                         {pregunta : "En caso de que usted como colaborador de Servientrega tenga conocimiento de una posible operación intentada, inusual o sospechosa por parte de otro colaborador de la organización, que debe hacer:" , 
-                         respuestauno :  ["respuesta1",
+                         respuestauno :  ["respuestauno",
                                        "Reporte Informativo al jefe directo",
                                        false],
-                         respuestados :  ["respuesta1",
+                         respuestados :  ["respuestados",
                                         "Reporte Interno",
                                         true],
-                         respuestatres : ["respuesta1",
+                         respuestatres : ["respuestatres",
                                         "Reporte al proceso",
                                         false]           
 
@@ -91,37 +91,37 @@
 
                         },
                         {pregunta : "En caso de que usted como colaborador de Servientrega tenga conocimiento de conductas como el lavado de activos o financiación al terrorismo y no coloque en conocimiento a la autoridad competente, incurre en el delito de:" , 
-                         respuestauno :  ["respuesta1",
+                         respuestauno :  ["respuestauno",
                                        "Omisión de información",
                                        false],
-                         respuestados :  ["respuesta1",
+                         respuestados :  ["respuestados",
                                         "Omisión de denuncia",
                                         true],
-                         respuestatres : ["respuesta1",
+                         respuestatres : ["respuestatres",
                                         "Corrupción privada.",
                                         false]       
 
                         },                        
                         {pregunta : "Qué es la Financiación del Terrorismo?" , 
-                         respuestauno :  ["respuesta1",
+                         respuestauno :  ["respuestauno",
                                        " Es el apoyo financiero, de cualquier forma, al terrorismo o a aquéllos que lo fomentan, planifican o están implicados en el mismo.",
                                        true],
-                         respuestados :  ["respuesta2",
+                         respuestados :  ["respuestados",
                                         "Es el apoyo financiero, de cualquier forma, a la delincuencia común o a aquéllos que la fomentan, planifican o están implicados en el mismo.",
                                         false],
-                         respuestatres : ["respuesta1",
+                         respuestatres : ["respuestatres",
                                         "Es el apoyo financiero, de cualquier forma, a la delincuencia común o a aquéllos que la fomentan, planifican o están implicados en el mismo.",
                                         false]       
 
                         },
                         {pregunta : "¿Cómo se mide el riesgo de LA/FT?" , 
-                         respuestauno :  ["respuesta1",
+                         respuestauno :  ["respuestauno",
                                        " Nivel e intensidad de la amenaza que el LA/FT representa para un país.",
                                        false],
-                         respuestados :  ["respuesta2",
+                         respuestados :  ["respuestados",
                                         "La vulnerabilidad del país en términos del nivel de fortaleza y capacidad de sus instituciones y sectores económicos de protegerse de la amenaza.",
                                         false],
-                         respuestatres : ["respuesta1",
+                         respuestatres : ["respuestatres",
                                         "El riesgo es proporcional al nivel de amenaza y de vulnerabilidad del país",
                                         true]        
 
@@ -129,7 +129,7 @@
 
                         ];
  
-                        console.log(preguntas[0].respuestatres[0])
+                        
         var seleccionres,
             conteo1,
             conteo2;
@@ -143,17 +143,31 @@
            /*alert(preguntas[random]); 
            console.log(preguntas[random])*/
            $( "#pregunta1" ).text(preguntas[random].pregunta); 
-           $( "#respuesta1" ).text(preguntas[random].respuestauno[1]); 
-           $( "#respuesta2" ).text(preguntas[random].respuestados[1]); 
-           $( "#respuesta3" ).text(preguntas[random].respuestatres[1]); 
+           $( "#respuestauno" ).text(preguntas[random].respuestauno[1]); 
+           $( "#respuestados" ).text(preguntas[random].respuestados[1]); 
+           $( "#respuestatres" ).text(preguntas[random].respuestatres[1]); 
            seleccionres = preguntas[random];
 
            } else 
            
-            $(seleccionres).each(function(index, data){
-                
-                console.log(data)
-            })
+            switch ($(this).attr('id'))
+            {
+               case 'respuestauno': 
+               console.log(seleccionres.respuestauno[2]);
+               if (seleccionres.respuestauno[2]) {
+                console.log("sep");
+                $("#popupSI").submit()
+               } else
+               {console.log("nop")
+                $("#popupNO").submit()}
+               break;
+            
+               case 'respuestados': console.log(seleccionres.respuestados[2]);
+               break;
+            
+               case 'respuestatres': console.log(seleccionres.respuestatres[2]);
+               break;
+            
+            }
            
         });
-
