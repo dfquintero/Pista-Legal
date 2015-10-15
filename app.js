@@ -156,8 +156,10 @@
                console.log(seleccionres.respuestauno[2]);
                if (seleccionres.respuestauno[2]) {
                 console.log("sep");
+                $("#popupSI").submit()
                } else
-               {console.log("nop")}
+               {console.log("nop")
+                $("#popupNO").submit()}
                break;
             
                case 'respuestados': console.log(seleccionres.respuestados[2]);
