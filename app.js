@@ -335,7 +335,10 @@ var preguntas = [{
 
 ];
 
-
+        $("#pregunta1").text(preguntas[1].pregunta);
+        $("#respuestauno").text(preguntas[1].respuestauno[1]);
+        $("#respuestados").text(preguntas[1].respuestados[1]);
+        $("#respuestatres").text(preguntas[1].respuestatres[1]);
 
 var seleccionres,
     conteo1=0,
@@ -363,15 +366,15 @@ $("a").click(function (evento) {
         seleccionres = preguntas[random];
         console.log(preguntas.length)
         preguntas.splice(random,1)
-        console.log(preguntas.length)
+        
         
 
-        setTimeout(function () {
+
                   document.getElementById("pregunta").href = "#Pista"
                   console.log(conteo1,"conteo1");
                   window.location.assign("./index.html#Pista")
 
-        } , 2000);
+
 
         
         if (conteo1 === 4) {
