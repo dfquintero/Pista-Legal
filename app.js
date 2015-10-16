@@ -141,11 +141,14 @@ var preguntas = [{
 
 
 var seleccionres,
-    conteo1,
-    conteo2;
+    mod=1,
+    conteo1=0,
+    conteo2=0;
 
 $("a").click(function (evento) {
     if ($(this).attr('id') === "pregunta") {
+
+        
         var random;
 
         random = Math.floor((Math.random() * preguntas.length) + 0);
@@ -158,6 +161,34 @@ $("a").click(function (evento) {
         $("#respuestatres").text(preguntas[random].respuestatres[1]);
         seleccionres = preguntas[random];
 
+        window.location.assign("./index.html#Pista")
+        console.log(conteo1,"conteo1");
+        
+        if (conteo1 === 4) {
+            conteo2++;
+            console.log(conteo2,"conteo2")
+            conteo1=0        
+
+        switch (conteo2) {
+            case 1:
+                  window.location.assign("./index.html#Pista1")
+                  
+                break;
+
+            case 2:
+                window.location.assign("./index.html#Pista2")
+
+                break;
+
+            case 3:
+                window.location.assign("./index.html#Pista3")
+                break;
+
+            case 4:
+                window.location.assign("./index.html#Pista4")
+                break;    
+        }    };
+
     } else
 
         switch ($(this).attr('id')) {
@@ -166,6 +197,7 @@ $("a").click(function (evento) {
                 if (seleccionres.respuestauno[2]) {
                     console.log("sep");
                     document.getElementById("respuestauno").href = "#popupSI"
+                    conteo1++
                 } else {
                     console.log("nop")
                     document.getElementById("respuestauno").href = "#popupNO"
@@ -176,6 +208,7 @@ $("a").click(function (evento) {
                 if (seleccionres.respuestados[2]) {
                     console.log("sep");
                     document.getElementById("respuestados").href = "#popupSI"
+                    conteo1++
                 } else {
                     console.log("nop")
                     document.getElementById("respuestados").href = "#popupNO"
@@ -186,6 +219,7 @@ $("a").click(function (evento) {
                 if (seleccionres.respuestatres[2]) {
                     console.log("sep");
                     document.getElementById("respuestatres").href = "#popupSI"
+                    conteo1++
                 } else {
                     console.log("nop")
                     document.getElementById("respuestatres").href = "#popupNO"
@@ -195,5 +229,3 @@ $("a").click(function (evento) {
         }
 
 });
-
-
