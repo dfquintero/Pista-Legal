@@ -141,7 +141,6 @@ var preguntas = [{
 
 
 var seleccionres,
-    mod=1,
     conteo1=0,
     conteo2=0;
 
