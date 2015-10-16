@@ -159,6 +159,9 @@ $("a").click(function (evento) {
         $("#respuestados").text(preguntas[random].respuestados[1]);
         $("#respuestatres").text(preguntas[random].respuestatres[1]);
         seleccionres = preguntas[random];
+        console.log(preguntas.length)
+        preguntas.splice(random,1)
+        console.log(preguntas.length)
 
         window.location.assign("./index.html#Pista")
         console.log(conteo1,"conteo1");
