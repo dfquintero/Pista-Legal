@@ -140,17 +140,21 @@ var preguntas = [{
 ];
 
 
+
 var seleccionres,
     conteo1=0,
     conteo2=0;
 
 $("a").click(function (evento) {
     if ($(this).attr('id') === "pregunta") {
-
+       if (preguntas.length === 0) {
+          
+          
+          window.location.assign("./index.html#Over")} else { 
         
-        var random;
+          var random;
 
-        random = Math.floor((Math.random() * preguntas.length) + 0);
+          random = Math.floor((Math.random() * preguntas.length) + 0);
 
         /*alert(preguntas[random]); 
         console.log(preguntas[random])*/
@@ -189,7 +193,7 @@ $("a").click(function (evento) {
             case 4:
                 window.location.assign("./index.html#Pista4")
                 break;    
-        }    };
+        }    } };
 
     } else
 
