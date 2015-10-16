@@ -364,9 +364,15 @@ $("a").click(function (evento) {
         console.log(preguntas.length)
         preguntas.splice(random,1)
         console.log(preguntas.length)
+        
 
-        window.location.assign("./index.html#Pista")
-        console.log(conteo1,"conteo1");
+        setTimeout(function () {
+                  document.getElementById("pregunta").href = "#Pista"
+                  console.log(conteo1,"conteo1");
+                  window.location.assign("./index.html#Pista")
+
+        } , 2000);
+
         
         if (conteo1 === 4) {
             conteo2++;
