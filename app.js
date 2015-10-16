@@ -150,7 +150,9 @@ $("a").click(function (evento) {
        if (preguntas.length === 0) {
           
           
-          window.location.assign("./index.html#Over")} else { 
+          window.location.assign("./index.html#Over")
+          window.location.reload(); 
+          } else { 
         
           var random;
 
