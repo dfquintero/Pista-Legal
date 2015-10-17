@@ -370,8 +370,9 @@ $("a").click(function (evento) {
         
 
 
-                  document.getElementById("pregunta").href = "#Pista"
+                  //document.getElementById("pregunta").href = "#Pista"
                   console.log(conteo1,"conteo1");
+
                   window.location.assign("./index.html#Pista")
 
 
@@ -401,6 +402,31 @@ $("a").click(function (evento) {
                 window.location.assign("./index.html#Pista4")
                 break;    
         }    } };
+
+    } else if ($(this).attr('id') === "pregunta2"){
+
+                  var random2;
+
+          random2 = Math.floor((Math.random() * preguntas.length) + 0);
+
+          window.location.assign("./index.html#Pista")
+
+        $("#pregunta1").text(preguntas[random2].pregunta);
+        $("#respuestauno").text(preguntas[random2].respuestauno[1]);
+        $("#respuestados").text(preguntas[random2].respuestados[1]);
+        $("#respuestatres").text(preguntas[random2].respuestatres[1]);
+        seleccionres = preguntas[random2];
+        console.log(preguntas.length)
+        preguntas.splice(random2,1)
+        
+        
+
+
+                  //document.getElementById("pregunta2").href = "#Pista"
+                  $('#pregunta2').href="#Pista"
+   
+
+                  //window.location.assign("./index.html")
 
     } else
 
