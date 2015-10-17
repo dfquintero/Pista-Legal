@@ -24,7 +24,7 @@
         </div>
         <div data-role="footer" data-position="fixed" style="background-color:transparent; border:none">
             <center>
-                <div><a class="ui-btn btnstart" href="#Intro1" data-transition="pop">Iniciar</a></div>
+                <div><a class="ui-btn " href="#Intro1" data-transition="pop">Iniciar</a></div>
                 <div style="background-color:white"><img src="img/apoyo.png" style="width:40%" /></div>
             </center>
         </div>
@@ -45,16 +45,43 @@
                 <p style="text-shadow:none; text-wrap:unset; text-align:center; width:80%;">
                     Hola, yo soy <b style="color:rgb(254, 171, 0)">NEXT</b> y te acompañaré en esta aventura en busca de  <b>Principios Claros y Acciones Con Transparencia</b>
                 </p>
-                <a id="pregunta" class="ui-btn btnstart" href="#Pista" style="background-color:rgba(255, 255, 255, 0.30)" data-transition="flip">Iniciar ></a>
+                <a id="pregunta" class="ui-btn" href="#Pista" style="background-color:rgba(255, 255, 255, 0.30)" data-transition="flip">Iniciar ></a>
             </center>
         </div>
     </div>
     <div data-role="page" id="Pista" style="background-image:url(img/bgs.png); background-size:cover; background-position:bottom; background-color:transparent">
+        <div data-role="panel" id="mypanel" data-theme="b" data-display="overlay" data-position="right" style="background-color:#008834">
+            <center>
+                <img src="img/mainlogo.png" style="width:90%" />
+            </center>
+            <br />
+            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" data-inset="true" data-collapsed-icon="carat-r" data-expanded-icon="carat-d" class="ui-alt-icon ui-nodisc-icon">
+                <div data-role="collapsible">
+                    <h3>¿Que es?</h3>
+                    <p>....</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>Prevención</h3>
+                    <p>I'm the collapsible content for section 2</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>Acerca de</h3>
+                    <p>logo SIPLAFT</p>
+                </div>
+            </div>
+            <div>
+                <h5>Con el Apoyo de:</h5>
+                <img src="img/apoyo.png" style="width:100%; border:none; padding:0px; margin:0px " />
+            </div>
+        </div>
         <div data-role="header" class="bgfoot" style="background-color:transparent">
-            <center><img src="img/title2.png" style="width:80%" /></center>
+            <center><img src="img/Puntos/point0.png" style="width:90%" /></center>
         </div>
         <div role="main" class="ui-content">
-
+            <a data-rel="popup" class="ui-btn" href="#Pista1">pista1</a>
+            <a data-rel="popup" class="ui-btn" href="#Pista2">pista2</a>
+            <a data-rel="popup" class="ui-btn" href="#Pista3">pista3</a>
+            <a data-rel="popup" class="ui-btn" href="#Pista4">pista4</a>
         </div>
         <div data-role="footer" data-position="fixed" class="bgfoot" style="background-color:transparent; overflow:hidden; border:none;">
             <p id="pregunta1" style="text-shadow:none; color:rgb(0, 0, 0); width:80%; margin:15px 15px 10px 15px">Pregunta</p>
@@ -83,7 +110,7 @@
             <center>
                 <h3>¡MUY BIEN!</h3>
                 <img src="img/popup/SIjesus.png" />
-                <a id="pregunta2" class="ui-btn" href="#">Continuar ></a>
+                <a id="pregunta2" class="ui-btn" href="#" style="margin:4px">Continuar ></a>
             </center>
         </div>
         <div id="popupNO" data-role="popup" data-position-to="window" style="background-color:rgba(155, 0, 0, 0.75)" data-overlay-theme="a" data-dismissible="false">
@@ -92,55 +119,31 @@
                 <img src="img/popup/NOjesus.png" />
                 <a id="pregunta2" class="ui-btn" href="#" style="margin:4px">Continuar ></a>
             </center>
-        </div>
-        <div data-role="panel" id="mypanel" data-theme="b" data-display="overlay" data-position="right" style="background-color:#008834">
+        </div>   
+        <div id="Pista1" data-role="popup" data-position-to="window" style="background-color:rgba(190, 174, 0, 0.75)" data-overlay-theme="a" data-dismissible="true">
             <center>
-                <img src="img/mainlogo.png" style="width:90%" />
-            </center>
-            <br />
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" data-inset="true" data-collapsed-icon="carat-r" data-expanded-icon="carat-d" class="ui-alt-icon ui-nodisc-icon">
-                <div data-role="collapsible">
-                    <h3>¿Que es?</h3>
-                    <p>....</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>Prevención</h3>
-                    <p>I'm the collapsible content for section 2</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>Acerca de</h3>
-                    <p>logo SIPLAFT</p>
-                </div>
-            </div>
-            <div>
-                <h5>Con el Apoyo de:</h5>
-                <img src="img/apoyo.png" style="width:100%; border:none; padding:0px; margin:0px " />
-            </div>
-        </div>
-    </div>
-    <div data-role="page" id="Pista1" style="background-image:url(img/Pista/bgP1.png); background-size:cover; background-position:center">
-        <div data-role="footer" data-position="fixed" class="bgfoot" style="background-color:transparent">
-            <center>
-                <p style="margin:10px; text-shadow:none">......</p>
-                <a id="pregunta2" href="#Pista" class="ui-btn" style="background-color:rgb(254, 171, 0); border-radius:100px; margin:10px; text-shadow:none; color:white">SEGUIR JUGANDO</a>
+                <img src="img/popup/P1.png" />
+                <a id="" class="ui-btn" href="#" style="margin:4px">Continuar ></a>
             </center>
         </div>
-    </div>
-    <div data-role="page" id="Pista2" style="background-image:url(img/Pista/bgP2.png); background-size:cover; background-position:center">
-        <div data-role="footer" data-position="fixed" class="bgfoot" style="background-color:transparent">
+        <div id="Pista2" data-role="popup" data-position-to="window" style="background-color:rgba(190, 174, 0, 0.75)" data-overlay-theme="a" data-dismissible="true">
             <center>
-                <p style="margin:10px; text-shadow:none">......</p>
-                <a id="pregunta2" href="#Pista" class="ui-btn" style="background-color:rgb(254, 171, 0); border-radius:100px; margin:10px; text-shadow:none; color:white">SEGUIR JUGANDO</a>
+                <img src="img/popup/P2.png" />
+                <a id="" class="ui-btn" href="#" style="margin:4px">Continuar ></a>
             </center>
         </div>
-    </div>
-    <div data-role="page" id="Pista3" style="background-image:url(img/Pista/bgP3.png); background-size:cover; background-position:center">
-        <div data-role="footer" data-position="fixed" class="bgfoot" style="background-color:transparent">
+        <div id="Pista3" data-role="popup" data-position-to="window" style="background-color:rgba(190, 174, 0, 0.75)" data-overlay-theme="a" data-dismissible="true">
             <center>
-                <p style="margin:10px; text-shadow:none">......</p>
-                <a id="pregunta2" href="#Pista" class="ui-btn" style="background-color:rgb(254, 171, 0); border-radius:100px; margin:10px; text-shadow:none; color:white">SEGUIR JUGANDO</a>
+                <img src="img/popup/P3.png" />
+                <a id="" class="ui-btn" href="#" style="margin:4px">Continuar ></a>
             </center>
-        </div>
+        </div>  
+        <div id="Pista4" data-role="popup" data-position-to="window" style="background-color:rgba(190, 174, 0, 0.75)" data-overlay-theme="a" data-dismissible="True">
+            <center>
+                <img src="img/popup/P4.png" />
+                <a id="" class="ui-btn" href="#" style="margin:4px">Continuar ></a>
+            </center>
+        </div>   
     </div>
     <div data-role="page" id="Pista4" style="background-image:url(img/Pista/bgP4.png); background-size:cover; background-position:center">
         <div data-role="footer" data-position="fixed" class="bgfoot" style="background-color:transparent">
