@@ -345,13 +345,13 @@ var seleccionres,
     conteo2=0;
 
 $("a").click(function (evento) {
-    if ($(this).attr('id') === "pregunta") {
-       if (preguntas.length === 0) {
-          
-          
+
+  if (preguntas.length === 0) {
           window.location.assign("./index.html#Over")
-          window.location.reload(); 
-          } else { 
+          //window.location.reload(); 
+        } else
+    if ($(this).attr('id') === "pregunta") {
+
         
           var random;
 
@@ -364,20 +364,52 @@ $("a").click(function (evento) {
         $("#respuestados").text(preguntas[random].respuestados[1]);
         $("#respuestatres").text(preguntas[random].respuestatres[1]);
         seleccionres = preguntas[random];
-        console.log(preguntas.length)
+        
         preguntas.splice(random,1)
         
         
 
 
-                  //document.getElementById("pregunta").href = "#Pista"
-                  console.log(conteo1,"conteo1");
 
-                  window.location.assign("./index.html#Pista")
+
+                  //$( "#popupSI" ).popup( "close" )
+                  //$( "#popupNO" ).popup( "close" )
+                  //window.location.assign("./index.html#Pista1")
+                  //$('#pregunta').href="#Pista"
 
 
 
         
+
+
+    } else if ($(this).attr('id') === "pregunta2") {
+
+               var random2;
+
+          random2 = Math.floor((Math.random() * preguntas.length) + 0);
+
+        /*alert(preguntas[random]); 
+        console.log(preguntas[random])*/
+        $("#pregunta1").text(preguntas[random2].pregunta);
+        $("#respuestauno").text(preguntas[random2].respuestauno[1]);
+        $("#respuestados").text(preguntas[random2].respuestados[1]);
+        $("#respuestatres").text(preguntas[random2].respuestatres[1]);
+        seleccionres = preguntas[random2];
+
+        preguntas.splice(random2,1)
+        
+        
+
+
+
+
+                  $( "#popupSI" ).popup( "close" )
+                  $( "#popupNO" ).popup( "close" )
+                  $('#pregunta').href="#Pista"
+
+
+
+        console.log(conteo1)
         if (conteo1 === 4) {
             conteo2++;
             console.log(conteo2,"conteo2")
@@ -385,7 +417,8 @@ $("a").click(function (evento) {
 
         switch (conteo2) {
             case 1:
-                  window.location.assign("./index.html#Pista1")
+                  //window.location.assign("./index.html#Pista1")
+                  $(location).attr('href','./index.html#Pista1');
                   
                 break;
 
@@ -401,32 +434,7 @@ $("a").click(function (evento) {
             case 4:
                 window.location.assign("./index.html#Pista4")
                 break;    
-        }    } };
-
-    } else if ($(this).attr('id') === "pregunta2"){
-
-                  var random2;
-
-          random2 = Math.floor((Math.random() * preguntas.length) + 0);
-
-          window.location.assign("./index.html#Pista")
-
-        $("#pregunta1").text(preguntas[random2].pregunta);
-        $("#respuestauno").text(preguntas[random2].respuestauno[1]);
-        $("#respuestados").text(preguntas[random2].respuestados[1]);
-        $("#respuestatres").text(preguntas[random2].respuestatres[1]);
-        seleccionres = preguntas[random2];
-        console.log(preguntas.length)
-        preguntas.splice(random2,1)
-        
-        
-
-
-                  //document.getElementById("pregunta2").href = "#Pista"
-                  $('#pregunta2').href="#Pista"
-   
-
-                  //window.location.assign("./index.html")
+        }     } 
 
     } else
 
@@ -435,8 +443,9 @@ $("a").click(function (evento) {
                 console.log(seleccionres.respuestauno[2]);
                 if (seleccionres.respuestauno[2]) {
                     console.log("sep");
-                    document.getElementById("respuestauno").href = "#popupSI"
                     conteo1++
+                    document.getElementById("respuestauno").href = "#popupSI"
+                    
                 } else {
                     console.log("nop")
                     document.getElementById("respuestauno").href = "#popupNO"
@@ -445,9 +454,10 @@ $("a").click(function (evento) {
 
             case 'respuestados':
                 if (seleccionres.respuestados[2]) {
+                    conteo1++
                     console.log("sep");
                     document.getElementById("respuestados").href = "#popupSI"
-                    conteo1++
+                    
                 } else {
                     console.log("nop")
                     document.getElementById("respuestados").href = "#popupNO"
@@ -457,8 +467,9 @@ $("a").click(function (evento) {
             case 'respuestatres':
                 if (seleccionres.respuestatres[2]) {
                     console.log("sep");
-                    document.getElementById("respuestatres").href = "#popupSI"
                     conteo1++
+                    document.getElementById("respuestatres").href = "#popupSI"
+                    
                 } else {
                     console.log("nop")
                     document.getElementById("respuestatres").href = "#popupNO"

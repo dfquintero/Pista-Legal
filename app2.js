@@ -370,9 +370,9 @@ $("a").click(function (evento) {
         
 
 
-                  document.getElementById("pregunta").href = "#Pista"
-                  console.log(conteo1,"conteo1");
-                  window.location.assign("./index.html#Pista")
+                  $( "#popupSI" ).popup( "close" )
+                  $( "#popupNO" ).popup( "close" )
+                  $('#pregunta').href="#Pista"
 
 
 
