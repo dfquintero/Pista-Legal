@@ -384,32 +384,8 @@ $("a").click(function (evento) {
 
     } else if ($(this).attr('id') === "pregunta2") {
 
-               var random2;
 
-          random2 = Math.floor((Math.random() * preguntas.length) + 0);
-
-        /*alert(preguntas[random]); 
-        console.log(preguntas[random])*/
-        $("#pregunta1").text(preguntas[random2].pregunta);
-        $("#respuestauno").text(preguntas[random2].respuestauno[1]);
-        $("#respuestados").text(preguntas[random2].respuestados[1]);
-        $("#respuestatres").text(preguntas[random2].respuestatres[1]);
-        seleccionres = preguntas[random2];
-
-        preguntas.splice(random2,1)
-        
-        
-
-
-
-
-                  $( "#popupSI" ).popup( "close" )
-                  $( "#popupNO" ).popup( "close" )
-                  $('#pregunta').href="#Pista"
-
-
-
-        console.log(conteo1)
+              console.log(conteo1)
         if (conteo1 === 4) {
             conteo2++;
             console.log(conteo2,"conteo2")
@@ -435,6 +411,33 @@ $("a").click(function (evento) {
                 window.location.assign("./index.html#Pista4")
                 break;    
         }     } 
+
+               var random2;
+
+          random2 = Math.floor((Math.random() * preguntas.length) + 0);
+
+        /*alert(preguntas[random]); 
+        console.log(preguntas[random])*/
+        $("#pregunta1").text(preguntas[random2].pregunta);
+        $("#respuestauno").text(preguntas[random2].respuestauno[1]);
+        $("#respuestados").text(preguntas[random2].respuestados[1]);
+        $("#respuestatres").text(preguntas[random2].respuestatres[1]);
+        seleccionres = preguntas[random2];
+
+        preguntas.splice(random2,1)
+        
+        
+
+
+
+
+                  $( "#popupSI" ).popup( "close" )
+                  $( "#popupNO" ).popup( "close" )
+                  $('#pregunta').href="#Pista"
+
+
+
+
 
     } else
 
