@@ -377,7 +377,8 @@ $("a").click(function (evento) {
                   //window.location.assign("./index.html#Pista1")
                   //$('#pregunta').href="#Pista"
 
-
+                  
+                  
 
         
 
@@ -386,32 +387,68 @@ $("a").click(function (evento) {
 
 
               console.log(conteo1)
-        if (conteo1 === 3) {
+        /*if (conteo1 === 1) {
             conteo2++;
             console.log(conteo2,"conteo2")
-            conteo1=0        
+            conteo1=0        */
 
-        switch (conteo2) {
+        switch (conteo1) {
             case 1:
                   //window.location.assign("./index.html#Pista1")
                   //$(location).attr('href','./index.html#Pista1');
-                  console.log('uno')
+                  
+                  document.getElementById('cambiar').src = "img/Puntos/01.png";
                   
                 break;
 
             case 2:
-                console.log('do2')
+                document.getElementById('cambiar').src = "img/Puntos/02.png";
 
                 break;
 
             case 3:
-               console.log('tre')
+                 document.getElementById('cambiar').src = "img/Puntos/03.png";
                 break;
 
             case 4:
-                console.log('cuatro')
-                break;    
-        }     } 
+                document.getElementById('cambiar').src = "img/Puntos/04.png";
+                break; 
+
+            case 5:
+                document.getElementById('cambiar').src = "img/Puntos/05.png";
+
+                break;
+
+            case 6:
+               document.getElementById('cambiar').src = "img/Puntos/06.png";
+                break;
+
+            case 7:
+                document.getElementById('cambiar').src = "img/Puntos/07.png";
+                break; 
+  
+            case 8:
+                document.getElementById('cambiar').src = "img/Puntos/08.png";
+
+                break;
+
+            case 9:
+               document.getElementById('cambiar').src = "img/Puntos/09.png";
+                break;
+
+            case 10:
+                document.getElementById('cambiar').src = "img/Puntos/10.png";
+                break; 
+
+            case 11:
+               document.getElementById('cambiar').src = "img/Puntos/11.png";
+                break;
+
+            case 12:
+                document.getElementById('cambiar').src = "img/Puntos/12.png";
+                break;        
+
+        }    // } 
 
                var random2;
 

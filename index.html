@@ -13,7 +13,7 @@
 
 </head>
 <body style="background-color:#03401d; height:100%">
-    <div data-role="page" id="start" style="background-image:url(img/bgIni.png); background-position:center; background-size:cover">
+    <div data-role="page" id="start" style="background-image:url(img/S/bg1.jpg); background-position:center; background-size:cover">
         <div data-role="header" style="background-color:transparent; border:none" data-position="fixed">
             <center>
                 <img src="img/title2.png" style="width:70%; border:0px; padding:0px" />
@@ -37,7 +37,8 @@
         <div data-role="footer" data-position="fixed" class="footBG" style="border:none; background-color:transparent">
             <center>
                 <p style="text-shadow:none; text-wrap:unset; text-align:center; width:80%;">
-                    Hola, <b style="color:#008834">SERVIENTREGA S.A.</b> necesita tu ayuda para descubrir cuál es el negocio adecuado que podremos celebrar, tendrás ayuda del experto segura para analizar diferentes propuestas y uniendo nuestros conocimientos podremos crear un excelente Sistema de Prevención y Control de Lavado de Activos y Financiación del Terrorismo, ¡recuerda actuar siempre con principios claros y acciones trasparentes!...
+                    Hola, <b style="color:#008834; text-shadow:0px 1px 5px #ffffff">SERVIENTREGA S.A.</b> necesita tu ayuda para mejorar las prácticas <b>contra el lavado de activos y el financiamiento del terrorismo </b>, para esto tendrás la ayuda de un experto además de información que será de tu ayuda.<br /> 
+                    <b style="color:black; text-shadow:2px 2px 1px #ffffff"> ¡Recuerda actuar siempre con principios claros y acciones transparentes!</b> …
                 </p>
                 <a id="intro2" class="ui-btn" href="#Intro2" data-transition="flow" style="background-color:orange ; border: 2px solid orangered; color:white; text-shadow:none; border-radius:100000px; padding:2px 20px 2px 20px; width:70%">
                     <img src="img/TxtBtn/continuar.png" style="height:22px" />
@@ -46,24 +47,23 @@
         </div>
     </div>
     <div data-role="page" id="Intro2" style="background-image:url(img/bgOffice2.png); background-size:cover; background-position:center; height:100%">
-        <div class="ui-content" style="height:100%; background-color:rgba(243, 0, 0, 0.66); background-image:url(img/Niko/HI.png); background-position:left; background-size:contain; background-repeat:no-repeat; height:100%">
-            <center>
-                <iframe style="width:80%; background-color:transparent; height:400px; margin-top:200px" src="manual.html" scrolling="auto" frameborder="0" >
+        <div class="ui-content" style="height:100%; background-color:transparent; background-image:url(img/Niko/HI.png); background-position:left; background-size:contain; background-repeat:no-repeat; height:100%">            
+                <iframe style="width:80%; background-color:transparent; height:600px; margin-top:250px; margin-left:20%" src="manual.html" scrolling="auto" frameborder="0" >
                     Ups! Parece que tu navegador no soporta esta caractyeristica
                 </iframe>
-            </center>
         </div>
         <div data-role="footer" data-position="fixed" class="footBG" style="background-color:transparent; border:none">
             <center>
                 <p style="text-shadow:none; text-wrap:unset; text-align:center; width:80%;">
-                    Hola, yo soy <b style="color:rgb(32, 78, 255)">NIKO</b> y te acompañaré en esta aventura, antes de empezar revisa el MANUAL, cuando estes listo oprime INICIAR</p>
+                    Hola yo soy <b style="color:rgb(32, 78, 255)">NIKO</b> y te acompañaré en esta aventura, antes de empezar te recomiendo revisar el manual, cuando estés listo oprime <b style="color:white; text-shadow:1PX 1PX 1PX #000000"> INICIAR</b>.
+                </p>
                 <a id="pregunta" class="ui-btn" href="#Pista" data-transition="flip" style="background-color:orange ; border: 2px solid orangered; color:white; text-shadow:none; border-radius:100000px; padding:2px 20px 2px 20px; width:70%">
                     <img src="img/TxtBtn/iniciar.png" style="height:22px" />
                 </a>
             </center>
         </div>
     </div>
-    <div data-role="page" id="Pista" style="background-image:url(img/S/bg.jpg) ; background-size:cover; background-position:center; background-color:transparent">
+    <div data-role="page" id="Pista" style="background-image:url(img/S/bg2.jpg) ; background-size:cover; background-position:center; background-color:transparent">
         <div data-role="panel" id="mypanel" data-theme="b" data-display="overlay" data-position="right" style="background-color:#008834">
             <center>
                 <img src="img/S/SIPLAFT.png" style="width:90%" />
@@ -128,6 +128,7 @@
             </center>
         </div>
         <div role="main" class="ui-content">
+            <img src="img/Niko/MANO.png" style="height:450px; margin-top:50px" />
         </div>
         <div data-role="footer" data-position="fixed" class="footBG" style="background-color:transparent; overflow:hidden; border:none;">
             <p id="pregunta1" style="text-shadow:none; color:rgb(0, 0, 0); width:80%; margin:15px 15px 10px 25px">Pregunta</p>
@@ -168,20 +169,27 @@
         </div>
     </div>
     <div data-role="page" id="FIN" style="background-image:url(img/S/bgfin.jpg); background-size:cover; background-position:center; background-color:transparent">
-        
+        <div role="main" class="ui-content">
+            <img src="img/Niko/CERT.png" style="height:550px; margin-top:50px" />
+        </div>
+        <div data-role="footer" data-position="fixed" class="footBG" style="background-color:transparent; border:none">
+            <center>
+                <p style="margin:10px; text-shadow:none">Lo hemos logrado, ahora tu tambien eres un agente SIPDOSF, SIEMPRE PUEDES VOLVER A JUGAR</p>
+                <a href="#start" style="background-color:rgb(254, 171, 0); border-radius:100px; margin:10px; text-shadow:none; color:white" class="ui-btn">VOLVER A JUGAR</a>
+            </center>
+        </div> 
     </div>
     <div data-role="page" id="Over" style="background-color:transparent">
         <center>
             <img src="img/GAMEOVER.png" style="width:60%; margin:5% 20% 1% 20%" />
         </center>
-        <div data-role="footer" data-position="fixed" class="bgfoot" style="background-color:transparent">
+        <div data-role="footer" data-position="fixed" class="footBG" style="background-color:transparent; border:none">
             <center>
                 <p style="margin:10px; text-shadow:none">Parece que hemos agotado los recursos para esta tarea, pero aún puedes volver a intentarlo</p>
                 <a href="#start" style="background-color:rgb(254, 171, 0); border-radius:100px; margin:10px; text-shadow:none; color:white" class="ui-btn">VOLVER A JUGAR</a>
             </center>
         </div>
     </div>
-
     <script src="app.js"></script>
 </body>
 </html>
