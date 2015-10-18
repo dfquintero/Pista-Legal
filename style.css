@@ -55,3 +55,13 @@
     background: linear-gradient(to bottom, rgba(245,246,246,0) 0%,rgba(246,246,246,0.2) 5%,rgba(247,247,247,0.7) 15%,rgba(255,255,255,0.9) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f5f6f6', endColorstr='#e6ffffff',GradientType=0 ); /* IE6-9 */
 }
+
+.clickable-area {
+    display: block;
+    width: 100%;
+    height: 600px;
+    background-color: red;
+}
+.clickable-area:focus {
+    outline: 0;
+}

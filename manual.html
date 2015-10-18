@@ -5,16 +5,55 @@
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <script >
+        $.mobile.document.on("click", "#open-popupArrow", function (evt) {
+            $("#popupArrow").popup("open", { x: evt.pageX, y: evt.pageY });
+            evt.preventDefault();
+        });
+    </script>
 </head>
 <body style="background-color:transparent">
     <div data-role="page" style="background-color:transparent">
+    <center><img src="img/S/LOGO.png" style="width:40%"/></center>
         <ul data-role="listview" style="background-color:transparent; opacity:0.5">
-            <li>item</li>
-            <li>item</li>
-            <li>item</li>
-            <li>item</li>
+            <li>
+                <a href="#">
+                    <img src="img/S/SIPLAFT.png" />
+                    <h2>PREGUNTAS</h2>
+                    <p>...</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../_assets/img/album-bb.jpg">
+                    <h2>PUNTOS</h2>
+                    <p>...</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../_assets/img/album-hc.jpg">
+                    <h2>VIDAS</h2>
+                    <p>Hot Chip</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../_assets/img/album-p.jpg">
+                    <h2>MENU</h2>
+                    <p>Pho</p>
+                    </a>
+                </li>
         </ul>
     </div>
-    
+    <div data-role="page" id="Preguntas" style="background-color:transparent">
+    </div>
+    <div data-role="page" id="Puntos" style="background-color:transparent">
+    </div>
+    <div data-role="page" id="Vidas" style="background-color:transparent">
+    </div>
+    <div data-role="page" id="" style="background-color:transparent">
+    </div>
 </body>
 </html>
