@@ -21,7 +21,7 @@ var preguntas = [{
                                        "Clientes con acciones transparentes",
                                        true],
                     respuestados: ["respuestados",
-                                        "reportes negativas ante la UIAF",
+                                        "Reportes negativas ante la UIAF",
                                         false],
                     respuestatres: ["respuestatres",
                                         "Clientes reportados en la lista Clinton",
@@ -34,7 +34,7 @@ var preguntas = [{
                                        "Obtener dinero ilegal, realizar conductas ilícitas.",
                                        false],
                     respuestados: ["respuestados",
-                                       "A Financiamiento al terrorismo, enriquecimiento ilícito, ahorros injustificados, adquisición de bienes, ocultamiento de conductas.",
+                                       "Financiamiento al terrorismo, enriquecimiento ilícito, ahorros injustificados, adquisición de bienes, ocultamiento de conductas.",
                                        true],
                     respuestatres: ["respuestatres",
                                         "Conseguir socios a través de cadenas.",
@@ -44,10 +44,10 @@ var preguntas = [{
                 {
                     pregunta: "Si una empresa que ya no está en funcionamiento, desea ser accionista de nuestra compañía pero se ha detectado que tiene nexos con organizaciones de lavado de activos que debemos hacer?",
                     respuestauno: ["respuestauno",
-                                       " A Reporto a la UIAF y a la fiscalía.",
+                                       "Reporto a la UIAF y a la fiscalía.",
                                        true],
                     respuestados: ["respuestados",
-                                       "Acepto entrar las acciones de un tercero.",
+                                       "Investigo sobre el reporte negativo del tercero.",
                                        false],
                     respuestatres: ["respuestatres",
                                        "Hago caso omiso a la solicitud de la otra compañía.",
@@ -60,7 +60,7 @@ var preguntas = [{
                                        "Contar con oficial de cumplimiento en la compañía..",
                                        false],
                     respuestados: ["respuestados",
-                                       " A Solicitar el código de la UIAF",
+                                       "Solicitar el código de la UIAF",
                                        true],
                     respuestatres: ["respuestatres",
                                         "Todas las anteriores.",
@@ -103,23 +103,10 @@ var preguntas = [{
                                   "Riesgo reputacional.",
                                   false],
                     respuestados: ["respuestados",
-                                   " A Prevención de lavado de activos y financiación al terrorismo.",
+                                   " Prevención de lavado de activos y financiación al terrorismo.",
                                    true],
                     respuestatres: ["respuestatres",
                                    "Blindaje en la compañía.",
-                                   false]
-
-                },
-                {
-                    pregunta: "Qué es la Financiación del Terrorismo?",
-                    respuestauno: ["respuestauno",
-                                  " Es el apoyo financiero, de cualquier forma, al terrorismo o a aquéllos que lo fomentan, planifican o están implicados en el mismo.",
-                                  true],
-                    respuestados: ["respuestados",
-                                   "Es el apoyo financiero, de cualquier forma, a la delincuencia común o a aquéllos que la fomentan, planifican o están implicados en el mismo.",
-                                   false],
-                    respuestatres: ["respuestatres",
-                                   "Es el apoyo financiero, de cualquier forma, a la delincuencia común o a aquéllos que la fomentan, planifican o están implicados en el mismo.",
                                    false]
 
                 },
@@ -135,18 +122,18 @@ var preguntas = [{
                                    "Mezclar dinero licito con dinero ilícito",
                                    true]
 
-                },
+                },                
                 {
-                    pregunta: "Que es la financiación del terrorismo.",
+                    pregunta: "Qué es la Financiación del Terrorismo?",
                     respuestauno: ["respuestauno",
-                                  "Entregar información a las autoridades",
-                                  false],
+                                  "Acto para proporcionar apoyo financiero a organizaciones terroristas.",
+                                  true],
                     respuestados: ["respuestados",
-                                   "Convenios con entidades investigadas por la UIAF.",
+                                   "Entregar Informacion a las autoridades.",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Acto para proporcionar apoyo financiero a organizaciones terroristas.",
-                                   true]
+                                   "Convenios con entidades investigadas por la UIAF.",
+                                   false]
 
                 },   
                 {
@@ -163,7 +150,7 @@ var preguntas = [{
 
                 },    
                 {
-                    pregunta: "Indique cuales son los delitos que enmarca el LA/FT.",
+                    pregunta: "Como se puede prevenir la financiación el LA/FT.",
                     respuestauno: ["respuestauno",
                                   "Reportando las operaciones sospechosas.",
                                   false],
@@ -174,7 +161,20 @@ var preguntas = [{
                                    " Todas las anteriores.",
                                    false]
 
-                },  
+                },
+                {
+                    pregunta: "Cuál es el mecanismo idóneo para reportar una posible actividad sospechosa.",
+                    respuestauno: ["respuestauno",
+                                  "Reporte de operación sospechosa.",
+                                  true],
+                    respuestados: ["respuestados",
+                                   "Reporte de proceso investigaciones.",
+                                   false],
+                    respuestatres: ["respuestatres",
+                                   "Reporte administrativo.",
+                                   false]
+
+                },                  
                 {
                     pregunta: "En caso de que le ofrezcan transportar un envío sin la documentación legal exigida usted que haría.",
                     respuestauno: ["respuestauno",
@@ -203,9 +203,9 @@ var preguntas = [{
 
                 }, 
                 {
-                    pregunta: "Que es la UIAF.",
+                    pregunta: "De las siguientes cual considera que es una operación sospechosa.",
                     respuestauno: ["respuestauno",
-                                  "Entidad reguladora de lavado de activos.",
+                                  "Sacar dinero de la caja menor.",
                                   false],
                     respuestados: ["respuestados",
                                    "Engañar al jefe con un permiso.",
@@ -255,16 +255,16 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "En caso dado de que le giren un dinero desde el exterior usted podría incurrir en:",
+                    pregunta: "Como se lavan activos.",
                     respuestauno: ["respuestauno",
-                                  " Lavado de activos.",
-                                  true],
+                                  " Por movimiento de dinero en cuentas bancarias.",
+                                  false],
                     respuestados: ["respuestados",
-                                   "Evasión de impuestos.",
+                                   "Movimientos de bienes a través de negocios.",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Ayuda de un amigo.",
-                                   false]
+                                   "Todas las anteriores.",
+                                   true]
 
                 },    
                 {
@@ -297,10 +297,10 @@ var preguntas = [{
                     pregunta: "El riesgo de lavado de activos solo afecta a grandes empresas.",
                     respuestauno: ["respuestauno",
                                   " Falso.",
-                                  false],
+                                  true],
                     respuestados: ["respuestados",
                                    "Verdadero.",
-                                   true],
+                                   false],
                     respuestatres: ["respuestatres",
                                    "Ns/Nr.",
                                    false]
@@ -320,7 +320,7 @@ var preguntas = [{
 
                 },                                                                     
                 {
-                    pregunta: "Que procesos penales implica la empresa al estar involucrado con actividades que promuevan lavado de activos.",
+                    pregunta: "Indique cual es el procedimiento de análisis con clientes, proveedores y/o accionistas.",
                     respuestauno: ["respuestauno",
                                   " Bases de datos del gobierno.",
                                   false],
@@ -346,7 +346,7 @@ var seleccionres,
 
 $("a").click(function (evento) {
 
-  if (preguntas.length === 0) {
+  if (preguntas.length === 10) {
           window.location.assign("./index.html#Over")
           window.location.reload(); 
         } else
@@ -386,7 +386,7 @@ $("a").click(function (evento) {
 
 
               console.log(conteo1)
-        if (conteo1 === 4) {
+        if (conteo1 === 3) {
             conteo2++;
             console.log(conteo2,"conteo2")
             conteo1=0        
@@ -394,21 +394,22 @@ $("a").click(function (evento) {
         switch (conteo2) {
             case 1:
                   //window.location.assign("./index.html#Pista1")
-                  $(location).attr('href','./index.html#Pista1');
+                  //$(location).attr('href','./index.html#Pista1');
+                  console.log('uno')
                   
                 break;
 
             case 2:
-                window.location.assign("./index.html#Pista2")
+                console.log('do2')
 
                 break;
 
             case 3:
-                window.location.assign("./index.html#Pista3")
+               console.log('tre')
                 break;
 
             case 4:
-                window.location.assign("./index.html#Pista4")
+                console.log('cuatro')
                 break;    
         }     } 
 
