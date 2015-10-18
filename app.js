@@ -392,6 +392,39 @@ $("a").click(function (evento) {
             console.log(conteo2,"conteo2")
             conteo1=0        */
 
+        switch (Math.floor((Math.random() * 5) + 1)) {
+
+            case 1:
+                  //window.location.assign("./index.html#Pista1")
+                  //$(location).attr('href','./index.html#Pista1');
+                  
+                  document.getElementById('fondo').src = "img/Niko/01.png";
+                  
+                break;
+
+            case 2:
+                document.getElementById('fondo').src = "img/Niko/02.png";
+
+                break;
+
+            case 3:
+                 document.getElementById('fondo').src = "img/Niko/03.png";
+                break;
+
+            case 4:
+                document.getElementById('fondo').src = "img/Niko/04.png";
+                break; 
+
+            case 5:
+                document.getElementById('fondo').src = "img/Niko/05.png";
+
+                break;
+
+
+        } 
+
+
+
         switch (conteo1) {
             case 1:
                   //window.location.assign("./index.html#Pista1")
@@ -446,6 +479,7 @@ $("a").click(function (evento) {
 
             case 12:
                 document.getElementById('cambiar').src = "img/Puntos/12.png";
+                window.location.assign("./index.html#Fin")
                 break;        
 
         }    // } 
@@ -471,7 +505,7 @@ $("a").click(function (evento) {
 
                   $( "#popupSI" ).popup( "close" )
                   $( "#popupNO" ).popup( "close" )
-                  $('#pregunta').href="#Pista"
+                  //$('#pregunta').href="#Pista"
 
 
 
