@@ -42,7 +42,7 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Si una empresa que ya no está en funcionamiento, desea ser accionista de nuestra compañía pero se ha detectado que tiene nexos con organizaciones de lavado de activos que debemos hacer?",
+                    pregunta: "¿Si una empresa que ya no está en funcionamiento, desea ser accionista de nuestra compañía pero se ha detectado que tiene nexos con organizaciones de lavado de activos que debemos hacer?",
                     respuestauno: ["respuestauno",
                                        "Reporto a la UIAF y a la fiscalía.",
                                        true],
@@ -55,7 +55,7 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Cuál es el primero paso para implementar SIPLAFT",
+                    pregunta: "¿Cuál es el primero paso para implementar SIPLAFT ?",
                     respuestauno: ["respuestauno",
                                        "Contar con oficial de cumplimiento en la compañía..",
                                        false],
@@ -68,12 +68,12 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Cuáles son los riesgos asociados a la LA/FT.",
+                    pregunta: "¿Cuáles son los riesgos asociados a la LA/FT. ?",
                     respuestauno: ["respuestauno",
                                      "Reputaciones, legal, operativo y contagio.",
                                       false],
                     respuestados: ["respuestados",
-                                     "Legal operativo, inspección, riesgo.",
+                                     "Legal, operativo, inspección, riesgo.",
                                      false],
                     respuestatres: ["respuestatres",
                                      "Daño de imagen, reporte ante la UIAF, reporte en lista Clinton.",
@@ -83,7 +83,7 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Que son factores de riesgo.",
+                    pregunta: "¿Que son factores de riesgo. ?",
                     respuestauno: ["respuestauno",
                                   "Operaciones sospechosas.",
                                   true],
@@ -98,12 +98,12 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Cuales es el objetivo de implementar SIPLAFT en la compañía.",
+                    pregunta: "¿Cuales es el objetivo de implementar SIPLAFT en la compañía. ?",
                     respuestauno: ["respuestauno",
                                   "Riesgo reputacional.",
                                   false],
                     respuestados: ["respuestados",
-                                   " Prevención de lavado de activos y financiación al terrorismo.",
+                                   "Prevención de lavado de activos y financiación al terrorismo.",
                                    true],
                     respuestatres: ["respuestatres",
                                    "Blindaje en la compañía.",
@@ -124,7 +124,7 @@ var preguntas = [{
 
                 },                
                 {
-                    pregunta: "Qué es la Financiación del Terrorismo?",
+                    pregunta: "¿Qué es la Financiación del Terrorismo?",
                     respuestauno: ["respuestauno",
                                   "Acto para proporcionar apoyo financiero a organizaciones terroristas.",
                                   true],
@@ -150,7 +150,7 @@ var preguntas = [{
 
                 },    
                 {
-                    pregunta: "Como se puede prevenir la financiación el LA/FT.",
+                    pregunta: "¿Como se puede prevenir la financiación el LA/FT. ?",
                     respuestauno: ["respuestauno",
                                   "Reportando las operaciones sospechosas.",
                                   false],
@@ -163,7 +163,7 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Cuál es el mecanismo idóneo para reportar una posible actividad sospechosa.",
+                    pregunta: "¿Cuál es el mecanismo idóneo para reportar una posible actividad sospechosa?",
                     respuestauno: ["respuestauno",
                                   "Reporte de operación sospechosa.",
                                   true],
@@ -190,7 +190,7 @@ var preguntas = [{
                 },       
 
                 {
-                    pregunta: "Que es la UIAF.",
+                    pregunta: "¿Que es la UIAF ?",
                     respuestauno: ["respuestauno",
                                   "Entidad reguladora de lavado de activos.",
                                   false],
@@ -203,7 +203,7 @@ var preguntas = [{
 
                 }, 
                 {
-                    pregunta: "De las siguientes cual considera que es una operación sospechosa.",
+                    pregunta: "¿De las siguientes cual considera que es una operación sospechosa.",
                     respuestauno: ["respuestauno",
                                   "Sacar dinero de la caja menor.",
                                   false],
@@ -216,7 +216,7 @@ var preguntas = [{
 
                 }, 
                 {
-                    pregunta: "Cuáles son los casos más frecuentes de incidencias o presencia de casos de lavado de activos.",
+                    pregunta: "¿Cuáles son los casos más frecuentes de incidencias o presencia de casos de lavado de activos?",
                     respuestauno: ["respuestauno",
                                   " Todas las siguientes.",
                                   true],
@@ -255,7 +255,7 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Como se lavan activos.",
+                    pregunta: "¿Como se lavan activos?",
                     respuestauno: ["respuestauno",
                                   " Por movimiento de dinero en cuentas bancarias.",
                                   false],
@@ -307,7 +307,7 @@ var preguntas = [{
 
                 },   
                 {
-                    pregunta: "Que procesos penales implica la empresa al estar involucrado con actividades que promuevan lavado de activos.",
+                    pregunta: "¿Que procesos penales implica la empresa al estar involucrado con actividades que promuevan lavado de activos?",
                     respuestauno: ["respuestauno",
                                   " Cancelación de licencias.",
                                   false],
