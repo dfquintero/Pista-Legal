@@ -348,7 +348,7 @@ $("a").click(function (evento) {
 
   if (preguntas.length === 10) {
           window.location.assign("./index.html#Over")
-          window.location.reload(); 
+          //window.location.reload(); 
         } else
     if ($(this).attr('id') === "pregunta") {
 
