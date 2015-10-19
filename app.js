@@ -21,7 +21,7 @@ var preguntas = [{
                                        "Clientes con acciones transparentes",
                                        true],
                     respuestados: ["respuestados",
-                                        "reportes negativas ante la UIAF",
+                                        "Reportes negativas ante la UIAF",
                                         false],
                     respuestatres: ["respuestatres",
                                         "Clientes reportados en la lista Clinton",
@@ -34,7 +34,7 @@ var preguntas = [{
                                        "Obtener dinero ilegal, realizar conductas ilícitas.",
                                        false],
                     respuestados: ["respuestados",
-                                       "A Financiamiento al terrorismo, enriquecimiento ilícito, ahorros injustificados, adquisición de bienes, ocultamiento de conductas.",
+                                       "Financiamiento al terrorismo, enriquecimiento ilícito, ahorros injustificados, adquisición de bienes, ocultamiento de conductas.",
                                        true],
                     respuestatres: ["respuestatres",
                                         "Conseguir socios a través de cadenas.",
@@ -42,12 +42,12 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Si una empresa que ya no está en funcionamiento, desea ser accionista de nuestra compañía pero se ha detectado que tiene nexos con organizaciones de lavado de activos que debemos hacer?",
+                    pregunta: "¿Si una empresa que ya no está en funcionamiento, desea ser accionista de nuestra compañía pero se ha detectado que tiene nexos con organizaciones de lavado de activos que debemos hacer?",
                     respuestauno: ["respuestauno",
-                                       " A Reporto a la UIAF y a la fiscalía.",
+                                       "Reporto a la UIAF y a la fiscalía.",
                                        true],
                     respuestados: ["respuestados",
-                                       "Acepto entrar las acciones de un tercero.",
+                                       "Investigo sobre el reporte negativo del tercero.",
                                        false],
                     respuestatres: ["respuestatres",
                                        "Hago caso omiso a la solicitud de la otra compañía.",
@@ -55,12 +55,12 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Cuál es el primero paso para implementar SIPLAFT",
+                    pregunta: "¿Cuál es el primero paso para implementar SIPLAFT ?",
                     respuestauno: ["respuestauno",
                                        "Contar con oficial de cumplimiento en la compañía..",
                                        false],
                     respuestados: ["respuestados",
-                                       " A Solicitar el código de la UIAF",
+                                       "Solicitar el código de la UIAF",
                                        true],
                     respuestatres: ["respuestatres",
                                         "Todas las anteriores.",
@@ -68,12 +68,12 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Cuáles son los riesgos asociados a la LA/FT.",
+                    pregunta: "¿Cuáles son los riesgos asociados a la LA/FT. ?",
                     respuestauno: ["respuestauno",
                                      "Reputaciones, legal, operativo y contagio.",
                                       false],
                     respuestados: ["respuestados",
-                                     "Legal operativo, inspección, riesgo.",
+                                     "Legal, operativo, inspección, riesgo.",
                                      false],
                     respuestatres: ["respuestatres",
                                      "Daño de imagen, reporte ante la UIAF, reporte en lista Clinton.",
@@ -83,7 +83,7 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Que son factores de riesgo.",
+                    pregunta: "¿Que son factores de riesgo. ?",
                     respuestauno: ["respuestauno",
                                   "Operaciones sospechosas.",
                                   true],
@@ -98,28 +98,15 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "Cuales es el objetivo de implementar SIPLAFT en la compañía.",
+                    pregunta: "¿Cuales es el objetivo de implementar SIPLAFT en la compañía. ?",
                     respuestauno: ["respuestauno",
                                   "Riesgo reputacional.",
                                   false],
                     respuestados: ["respuestados",
-                                   " A Prevención de lavado de activos y financiación al terrorismo.",
+                                   "Prevención de lavado de activos y financiación al terrorismo.",
                                    true],
                     respuestatres: ["respuestatres",
                                    "Blindaje en la compañía.",
-                                   false]
-
-                },
-                {
-                    pregunta: "Qué es la Financiación del Terrorismo?",
-                    respuestauno: ["respuestauno",
-                                  " Es el apoyo financiero, de cualquier forma, al terrorismo o a aquéllos que lo fomentan, planifican o están implicados en el mismo.",
-                                  true],
-                    respuestados: ["respuestados",
-                                   "Es el apoyo financiero, de cualquier forma, a la delincuencia común o a aquéllos que la fomentan, planifican o están implicados en el mismo.",
-                                   false],
-                    respuestatres: ["respuestatres",
-                                   "Es el apoyo financiero, de cualquier forma, a la delincuencia común o a aquéllos que la fomentan, planifican o están implicados en el mismo.",
                                    false]
 
                 },
@@ -135,18 +122,18 @@ var preguntas = [{
                                    "Mezclar dinero licito con dinero ilícito",
                                    true]
 
-                },
+                },                
                 {
-                    pregunta: "Que es la financiación del terrorismo.",
+                    pregunta: "¿Qué es la Financiación del Terrorismo?",
                     respuestauno: ["respuestauno",
-                                  "Entregar información a las autoridades",
-                                  false],
+                                  "Acto para proporcionar apoyo financiero a organizaciones terroristas.",
+                                  true],
                     respuestados: ["respuestados",
-                                   "Convenios con entidades investigadas por la UIAF.",
+                                   "Entregar Informacion a las autoridades.",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Acto para proporcionar apoyo financiero a organizaciones terroristas.",
-                                   true]
+                                   "Convenios con entidades investigadas por la UIAF.",
+                                   false]
 
                 },   
                 {
@@ -163,7 +150,7 @@ var preguntas = [{
 
                 },    
                 {
-                    pregunta: "Indique cuales son los delitos que enmarca el LA/FT.",
+                    pregunta: "¿Como se puede prevenir la financiación el LA/FT. ?",
                     respuestauno: ["respuestauno",
                                   "Reportando las operaciones sospechosas.",
                                   false],
@@ -174,7 +161,20 @@ var preguntas = [{
                                    " Todas las anteriores.",
                                    false]
 
-                },  
+                },
+                {
+                    pregunta: "¿Cuál es el mecanismo idóneo para reportar una posible actividad sospechosa?",
+                    respuestauno: ["respuestauno",
+                                  "Reporte de operación sospechosa.",
+                                  true],
+                    respuestados: ["respuestados",
+                                   "Reporte de proceso investigaciones.",
+                                   false],
+                    respuestatres: ["respuestatres",
+                                   "Reporte administrativo.",
+                                   false]
+
+                },                  
                 {
                     pregunta: "En caso de que le ofrezcan transportar un envío sin la documentación legal exigida usted que haría.",
                     respuestauno: ["respuestauno",
@@ -190,7 +190,7 @@ var preguntas = [{
                 },       
 
                 {
-                    pregunta: "Que es la UIAF.",
+                    pregunta: "¿Que es la UIAF ?",
                     respuestauno: ["respuestauno",
                                   "Entidad reguladora de lavado de activos.",
                                   false],
@@ -203,9 +203,9 @@ var preguntas = [{
 
                 }, 
                 {
-                    pregunta: "Que es la UIAF.",
+                    pregunta: "¿De las siguientes cual considera que es una operación sospechosa.",
                     respuestauno: ["respuestauno",
-                                  "Entidad reguladora de lavado de activos.",
+                                  "Sacar dinero de la caja menor.",
                                   false],
                     respuestados: ["respuestados",
                                    "Engañar al jefe con un permiso.",
@@ -216,7 +216,7 @@ var preguntas = [{
 
                 }, 
                 {
-                    pregunta: "Cuáles son los casos más frecuentes de incidencias o presencia de casos de lavado de activos.",
+                    pregunta: "¿Cuáles son los casos más frecuentes de incidencias o presencia de casos de lavado de activos?",
                     respuestauno: ["respuestauno",
                                   " Todas las siguientes.",
                                   true],
@@ -255,16 +255,16 @@ var preguntas = [{
 
                 },
                 {
-                    pregunta: "En caso dado de que le giren un dinero desde el exterior usted podría incurrir en:",
+                    pregunta: "¿Como se lavan activos?",
                     respuestauno: ["respuestauno",
-                                  " Lavado de activos.",
-                                  true],
+                                  " Por movimiento de dinero en cuentas bancarias.",
+                                  false],
                     respuestados: ["respuestados",
-                                   "Evasión de impuestos.",
+                                   "Movimientos de bienes a través de negocios.",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Ayuda de un amigo.",
-                                   false]
+                                   "Todas las anteriores.",
+                                   true]
 
                 },    
                 {
@@ -297,17 +297,17 @@ var preguntas = [{
                     pregunta: "El riesgo de lavado de activos solo afecta a grandes empresas.",
                     respuestauno: ["respuestauno",
                                   " Falso.",
-                                  false],
+                                  true],
                     respuestados: ["respuestados",
                                    "Verdadero.",
-                                   true],
+                                   false],
                     respuestatres: ["respuestatres",
                                    "Ns/Nr.",
                                    false]
 
                 },   
                 {
-                    pregunta: "Que procesos penales implica la empresa al estar involucrado con actividades que promuevan lavado de activos.",
+                    pregunta: "¿Que procesos penales implica la empresa al estar involucrado con actividades que promuevan lavado de activos?",
                     respuestauno: ["respuestauno",
                                   " Cancelación de licencias.",
                                   false],
@@ -320,7 +320,7 @@ var preguntas = [{
 
                 },                                                                     
                 {
-                    pregunta: "Que procesos penales implica la empresa al estar involucrado con actividades que promuevan lavado de activos.",
+                    pregunta: "Indique cual es el procedimiento de análisis con clientes, proveedores y/o accionistas.",
                     respuestauno: ["respuestauno",
                                   " Bases de datos del gobierno.",
                                   false],
@@ -345,13 +345,13 @@ var seleccionres,
     conteo2=0;
 
 $("a").click(function (evento) {
-    if ($(this).attr('id') === "pregunta") {
-       if (preguntas.length === 0) {
-          
-          
+
+  if (preguntas.length === 10) {
           window.location.assign("./index.html#Over")
           window.location.reload(); 
-          } else { 
+        } else
+    if ($(this).attr('id') === "pregunta") {
+
         
           var random;
 
@@ -364,43 +364,152 @@ $("a").click(function (evento) {
         $("#respuestados").text(preguntas[random].respuestados[1]);
         $("#respuestatres").text(preguntas[random].respuestatres[1]);
         seleccionres = preguntas[random];
-        console.log(preguntas.length)
+        
         preguntas.splice(random,1)
-        console.log(preguntas.length)
+        
         
 
 
-                  document.getElementById("pregunta").href = "#Pista"
-                  console.log(conteo1,"conteo1");
-                  window.location.assign("./index.html#Pista")
 
 
+                  //$( "#popupSI" ).popup( "close" )
+                  //$( "#popupNO" ).popup( "close" )
+                  //window.location.assign("./index.html#Pista1")
+                  //$('#pregunta').href="#Pista"
+
+                  
+                  
 
         
-        if (conteo1 === 4) {
+
+
+    } else if ($(this).attr('id') === "pregunta2") {
+
+
+              console.log(conteo1)
+        /*if (conteo1 === 1) {
             conteo2++;
             console.log(conteo2,"conteo2")
-            conteo1=0        
+            conteo1=0        */
 
-        switch (conteo2) {
+        switch (Math.floor((Math.random() * 5) + 1)) {
+
             case 1:
-                  window.location.assign("./index.html#Pista1")
+                  //window.location.assign("./index.html#Pista1")
+                  //$(location).attr('href','./index.html#Pista1');
+                  
+                  document.getElementById('fondo').src = "img/Niko/01.png";
                   
                 break;
 
             case 2:
-                window.location.assign("./index.html#Pista2")
+                document.getElementById('fondo').src = "img/Niko/02.png";
 
                 break;
 
             case 3:
-                window.location.assign("./index.html#Pista3")
+                 document.getElementById('fondo').src = "img/Niko/03.png";
                 break;
 
             case 4:
-                window.location.assign("./index.html#Pista4")
-                break;    
-        }    } };
+                document.getElementById('fondo').src = "img/Niko/04.png";
+                break; 
+
+            case 5:
+                document.getElementById('fondo').src = "img/Niko/05.png";
+
+                break;
+
+
+        } 
+
+
+
+        switch (conteo1) {
+            case 1:
+                  //window.location.assign("./index.html#Pista1")
+                  //$(location).attr('href','./index.html#Pista1');
+                  
+                  document.getElementById('cambiar').src = "img/Puntos/01.png";
+                  
+                break;
+
+            case 2:
+                document.getElementById('cambiar').src = "img/Puntos/02.png";
+
+                break;
+
+            case 3:
+                 document.getElementById('cambiar').src = "img/Puntos/03.png";
+                break;
+
+            case 4:
+                document.getElementById('cambiar').src = "img/Puntos/04.png";
+                break; 
+
+            case 5:
+                document.getElementById('cambiar').src = "img/Puntos/05.png";
+
+                break;
+
+            case 6:
+               document.getElementById('cambiar').src = "img/Puntos/06.png";
+                break;
+
+            case 7:
+                document.getElementById('cambiar').src = "img/Puntos/07.png";
+                break; 
+  
+            case 8:
+                document.getElementById('cambiar').src = "img/Puntos/08.png";
+
+                break;
+
+            case 9:
+               document.getElementById('cambiar').src = "img/Puntos/09.png";
+                break;
+
+            case 10:
+                document.getElementById('cambiar').src = "img/Puntos/10.png";
+                break; 
+
+            case 11:
+               document.getElementById('cambiar').src = "img/Puntos/11.png";
+                break;
+
+            case 12:
+                document.getElementById('cambiar').src = "img/Puntos/12.png";
+                window.location.assign("./index.html#Fin")
+                break;        
+
+        }    // } 
+
+               var random2;
+
+          random2 = Math.floor((Math.random() * preguntas.length) + 0);
+
+        /*alert(preguntas[random]); 
+        console.log(preguntas[random])*/
+        $("#pregunta1").text(preguntas[random2].pregunta);
+        $("#respuestauno").text(preguntas[random2].respuestauno[1]);
+        $("#respuestados").text(preguntas[random2].respuestados[1]);
+        $("#respuestatres").text(preguntas[random2].respuestatres[1]);
+        seleccionres = preguntas[random2];
+
+        preguntas.splice(random2,1)
+        
+        
+
+
+
+
+                  $( "#popupSI" ).popup( "close" )
+                  $( "#popupNO" ).popup( "close" )
+                  //$('#pregunta').href="#Pista"
+
+
+
+
 
     } else
 
@@ -409,8 +518,9 @@ $("a").click(function (evento) {
                 console.log(seleccionres.respuestauno[2]);
                 if (seleccionres.respuestauno[2]) {
                     console.log("sep");
-                    document.getElementById("respuestauno").href = "#popupSI"
                     conteo1++
+                    document.getElementById("respuestauno").href = "#popupSI"
+                    
                 } else {
                     console.log("nop")
                     document.getElementById("respuestauno").href = "#popupNO"
@@ -419,9 +529,10 @@ $("a").click(function (evento) {
 
             case 'respuestados':
                 if (seleccionres.respuestados[2]) {
+                    conteo1++
                     console.log("sep");
                     document.getElementById("respuestados").href = "#popupSI"
-                    conteo1++
+                    
                 } else {
                     console.log("nop")
                     document.getElementById("respuestados").href = "#popupNO"
@@ -431,8 +542,9 @@ $("a").click(function (evento) {
             case 'respuestatres':
                 if (seleccionres.respuestatres[2]) {
                     console.log("sep");
-                    document.getElementById("respuestatres").href = "#popupSI"
                     conteo1++
+                    document.getElementById("respuestatres").href = "#popupSI"
+                    
                 } else {
                     console.log("nop")
                     document.getElementById("respuestatres").href = "#popupNO"
