@@ -307,7 +307,7 @@ var preguntas = [{
 
                 },   
                 {
-                    pregunta: "¿Que procesos penales implica la empresa al estar involucrado con actividades que promuevan lavado de activos?",
+                    pregunta: "¿Que consecuencias le puede traer a una empresa estasr involucrada con actividades que promueven el lavado de dinero?",
                     respuestauno: ["respuestauno",
                                   " Cancelación de licencias.",
                                   false],
