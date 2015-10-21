@@ -307,7 +307,7 @@ var preguntas = [{
 
                 },   
                 {
-                    pregunta: "¿Que consecuencias le puede traer a una empresa estasr involucrada con actividades que promueven el lavado de dinero?",
+                    pregunta: "¿Que procesos penales implica la empresa al estar involucrado con actividades que promuevan lavado de activos?",
                     respuestauno: ["respuestauno",
                                   " Cancelación de licencias.",
                                   false],
@@ -391,37 +391,6 @@ $("a").click(function (evento) {
             conteo2++;
             console.log(conteo2,"conteo2")
             conteo1=0        */
-
-        switch (Math.floor((Math.random() * 5) + 1)) {
-
-            case 1:
-                  //window.location.assign("./index.html#Pista1")
-                  //$(location).attr('href','./index.html#Pista1');
-                  
-                  document.getElementById('fondo').src = "img/Niko/01.png";
-                  
-                break;
-
-            case 2:
-                document.getElementById('fondo').src = "img/Niko/02.png";
-
-                break;
-
-            case 3:
-                 document.getElementById('fondo').src = "img/Niko/03.png";
-                break;
-
-            case 4:
-                document.getElementById('fondo').src = "img/Niko/04.png";
-                break; 
-
-            case 5:
-                document.getElementById('fondo').src = "img/Niko/05.png";
-
-                break;
-
-
-        } 
 
 
 
