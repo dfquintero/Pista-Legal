@@ -1,20 +1,21 @@
-var preguntas = [{
-                      pregunta: "Indique cuales de las siguientes respuestas son utilizadas para reportar una actividad sospechosa",
-                      respuestauno: ["respuestauno",
-                                         "Llamar a la línea de emergencia de Servientrega #966",
-                                         false],
-                      respuestados: ["respuestados",
-                                         "Estar en contacto con la oficina de cumplimiento",
-                                         false],
-                      respuestatres: ["respuestatres",
-                                          "Enviar correo electrónico yoinformo@servientrega.com",
-                                          true]
+var preguntas = [
+    {
+        pregunta: "Indique cuales de las siguientes respuestas son utilizadas para reportar una actividad sospechosa",
+        respuestauno: ["respuestauno",
+                           "Llamar a la línea de emergencia de Servientrega #966",
+                           false],
+        respuestados: ["respuestados",
+                           "Estar en contacto con la oficina de cumplimiento",
+                           false],
+        respuestatres: ["respuestatres",
+                            "Enviar correo electrónico yoinformo@servientrega.com",
+                            true]
 
 
 
 
 
-                  },
+    },
                 {
                     pregunta: "Determine cuál de las siguientes respuestas no es un factor de riesgo para la compañía.",
                     respuestauno: ["respuestauno",
@@ -122,7 +123,7 @@ var preguntas = [{
                                    "Mezclar dinero licito con dinero ilícito",
                                    true]
 
-                },                
+                },
                 {
                     pregunta: "¿Qué es la Financiación del Terrorismo?",
                     respuestauno: ["respuestauno",
@@ -135,7 +136,7 @@ var preguntas = [{
                                    "Convenios con entidades investigadas por la UIAF.",
                                    false]
 
-                },   
+                },
                 {
                     pregunta: "Indique cuales son los delitos que enmarca el LA/FT.",
                     respuestauno: ["respuestauno",
@@ -148,7 +149,7 @@ var preguntas = [{
                                    " Trata de personas, terrorismo, secuestro, extorsión, lavado de activos.",
                                    true]
 
-                },    
+                },
                 {
                     pregunta: "¿Como se puede prevenir la financiación el LA/FT. ?",
                     respuestauno: ["respuestauno",
@@ -174,7 +175,7 @@ var preguntas = [{
                                    "Reporte administrativo.",
                                    false]
 
-                },                  
+                },
                 {
                     pregunta: "En caso de que le ofrezcan transportar un envío sin la documentación legal exigida usted que haría.",
                     respuestauno: ["respuestauno",
@@ -187,7 +188,7 @@ var preguntas = [{
                                    "Informa a un amigo.",
                                    false]
 
-                },       
+                },
 
                 {
                     pregunta: "¿Que es la UIAF ?",
@@ -201,7 +202,7 @@ var preguntas = [{
                                    "Es la Unidad de información y análisis financiero.",
                                    true]
 
-                }, 
+                },
                 {
                     pregunta: "¿De las siguientes cual considera que es una operación sospechosa.",
                     respuestauno: ["respuestauno",
@@ -214,7 +215,7 @@ var preguntas = [{
                                    "Celebrar un contrato con un narcotraficante.",
                                    true]
 
-                }, 
+                },
                 {
                     pregunta: "¿Cuáles son los casos más frecuentes de incidencias o presencia de casos de lavado de activos?",
                     respuestauno: ["respuestauno",
@@ -266,7 +267,7 @@ var preguntas = [{
                                    "Todas las anteriores.",
                                    true]
 
-                },    
+                },
                 {
                     pregunta: "Los negocios pueden ser involucrados directa o indirectamente en actividades ilegales con propuestas económicas atractivas.",
                     respuestauno: ["respuestauno",
@@ -279,7 +280,7 @@ var preguntas = [{
                                    "Ns/Nr.",
                                    false]
 
-                },    
+                },
                 {
                     pregunta: "El dinero Ilícito crea escenarios de competencia desleal.",
                     respuestauno: ["respuestauno",
@@ -292,7 +293,7 @@ var preguntas = [{
                                    "Ns/Nr.",
                                    false]
 
-                },     
+                },
                 {
                     pregunta: "El riesgo de lavado de activos solo afecta a grandes empresas.",
                     respuestauno: ["respuestauno",
@@ -305,7 +306,7 @@ var preguntas = [{
                                    "Ns/Nr.",
                                    false]
 
-                },   
+                },
                 {
                     pregunta: "¿Que procesos penales implica la empresa al estar involucrado con actividades que promuevan lavado de activos?",
                     respuestauno: ["respuestauno",
@@ -318,7 +319,7 @@ var preguntas = [{
                                    "Todas las anteriores.",
                                    true]
 
-                },                                                                     
+                },
                 {
                     pregunta: "Indique cual es el procedimiento de análisis con clientes, proveedores y/o accionistas.",
                     respuestauno: ["respuestauno",
@@ -331,195 +332,226 @@ var preguntas = [{
                                    "Todas las anteriores.",
                                    true]
 
-                }, 
+                },
 
 ];
 
-        $("#pregunta1").text(preguntas[1].pregunta);
-        $("#respuestauno").text(preguntas[1].respuestauno[1]);
-        $("#respuestados").text(preguntas[1].respuestados[1]);
-        $("#respuestatres").text(preguntas[1].respuestatres[1]);
+$("#pregunta1").text(preguntas[1].pregunta);
+$("#respuestauno").text(preguntas[1].respuestauno[1]);
+$("#respuestados").text(preguntas[1].respuestados[1]);
+$("#respuestatres").text(preguntas[1].respuestatres[1]);
 
 var seleccionres,
-    conteo1=0,
-    conteo2=0;
+    conteo1 = 0,
+    conteo2 = 0;
 
 $("a").click(function (evento) {
 
-  if (preguntas.length === 10) {
-          window.location.assign("./index.html#Over")
-          //window.location.reload(); 
-        } else
-    if ($(this).attr('id') === "pregunta") {
-
-        
-          var random;
-
-          random = Math.floor((Math.random() * preguntas.length) + 0);
-
-        /*alert(preguntas[random]); 
-        console.log(preguntas[random])*/
-        $("#pregunta1").text(preguntas[random].pregunta);
-        $("#respuestauno").text(preguntas[random].respuestauno[1]);
-        $("#respuestados").text(preguntas[random].respuestados[1]);
-        $("#respuestatres").text(preguntas[random].respuestatres[1]);
-        seleccionres = preguntas[random];
-        
-        preguntas.splice(random,1)
-        
-        
-
-
-
-
-                  //$( "#popupSI" ).popup( "close" )
-                  //$( "#popupNO" ).popup( "close" )
-                  //window.location.assign("./index.html#Pista1")
-                  //$('#pregunta').href="#Pista"
-
-                  
-                  
-
-        
-
-
-    } else if ($(this).attr('id') === "pregunta2") {
-
-
-              console.log(conteo1)
-        /*if (conteo1 === 1) {
-            conteo2++;
-            console.log(conteo2,"conteo2")
-            conteo1=0        */
-
-
-
-        switch (conteo1) {
-            case 1:
-                  //window.location.assign("./index.html#Pista1")
-                  //$(location).attr('href','./index.html#Pista1');
-                  
-                  document.getElementById('cambiar').src = "img/Puntos/01.png";
-                  
-                break;
-
-            case 2:
-                document.getElementById('cambiar').src = "img/Puntos/02.png";
-
-                break;
-
-            case 3:
-                 document.getElementById('cambiar').src = "img/Puntos/03.png";
-                break;
-
-            case 4:
-                document.getElementById('cambiar').src = "img/Puntos/04.png";
-                break; 
-
-            case 5:
-                document.getElementById('cambiar').src = "img/Puntos/05.png";
-
-                break;
-
-            case 6:
-               document.getElementById('cambiar').src = "img/Puntos/06.png";
-                break;
-
-            case 7:
-                document.getElementById('cambiar').src = "img/Puntos/07.png";
-                break; 
-  
-            case 8:
-                document.getElementById('cambiar').src = "img/Puntos/08.png";
-
-                break;
-
-            case 9:
-               document.getElementById('cambiar').src = "img/Puntos/09.png";
-                break;
-
-            case 10:
-                document.getElementById('cambiar').src = "img/Puntos/10.png";
-                break; 
-
-            case 11:
-               document.getElementById('cambiar').src = "img/Puntos/11.png";
-                break;
-
-            case 12:
-                document.getElementById('cambiar').src = "img/Puntos/12.png";
-                window.location.assign("./index.html#Fin")
-                break;        
-
-        }    // } 
-
-               var random2;
-
-          random2 = Math.floor((Math.random() * preguntas.length) + 0);
-
-        /*alert(preguntas[random]); 
-        console.log(preguntas[random])*/
-        $("#pregunta1").text(preguntas[random2].pregunta);
-        $("#respuestauno").text(preguntas[random2].respuestauno[1]);
-        $("#respuestados").text(preguntas[random2].respuestados[1]);
-        $("#respuestatres").text(preguntas[random2].respuestatres[1]);
-        seleccionres = preguntas[random2];
-
-        preguntas.splice(random2,1)
-        
-        
-
-
-
-
-                  $( "#popupSI" ).popup( "close" )
-                  $( "#popupNO" ).popup( "close" )
-                  //$('#pregunta').href="#Pista"
-
-
-
-
-
+    if (preguntas.length === 10) {
+        window.location.assign("./index.html#Over")
+        //window.location.reload();
     } else
+        if ($(this).attr('id') === "pregunta") {
 
-        switch ($(this).attr('id')) {
-            case 'respuestauno':
-                console.log(seleccionres.respuestauno[2]);
-                if (seleccionres.respuestauno[2]) {
-                    console.log("sep");
-                    conteo1++
-                    document.getElementById("respuestauno").href = "#popupSI"
-                    
-                } else {
-                    console.log("nop")
-                    document.getElementById("respuestauno").href = "#popupNO"
-                }
-                break;
 
-            case 'respuestados':
-                if (seleccionres.respuestados[2]) {
-                    conteo1++
-                    console.log("sep");
-                    document.getElementById("respuestados").href = "#popupSI"
-                    
-                } else {
-                    console.log("nop")
-                    document.getElementById("respuestados").href = "#popupNO"
-                }
-                break;
+            var random;
 
-            case 'respuestatres':
-                if (seleccionres.respuestatres[2]) {
-                    console.log("sep");
-                    conteo1++
-                    document.getElementById("respuestatres").href = "#popupSI"
-                    
-                } else {
-                    console.log("nop")
-                    document.getElementById("respuestatres").href = "#popupNO"
-                }
-                break;
+            random = Math.floor((Math.random() * preguntas.length) + 0);
 
-        }
+            /*alert(preguntas[random]); 
+            console.log(preguntas[random])*/
+            $("#pregunta1").text(preguntas[random].pregunta);
+            $("#respuestauno").text(preguntas[random].respuestauno[1]);
+            $("#respuestados").text(preguntas[random].respuestados[1]);
+            $("#respuestatres").text(preguntas[random].respuestatres[1]);
+            seleccionres = preguntas[random];
+
+            preguntas.splice(random, 1)
+
+
+
+
+
+
+            //$( "#popupSI" ).popup( "close" )
+            //$( "#popupNO" ).popup( "close" )
+            //window.location.assign("./index.html#Pista1")
+            //$('#pregunta').href="#Pista"
+
+
+
+
+
+
+
+        } else if ($(this).attr('id') === "pregunta2") {
+
+
+            console.log(conteo1)
+            /*if (conteo1 === 1) {
+                conteo2++;
+                console.log(conteo2,"conteo2")
+                conteo1=0        */
+
+            switch (Math.floor((Math.random() * 5) + 1)) {
+
+                case 1:
+                    //window.location.assign("./index.html#Pista1")
+                    //$(location).attr('href','./index.html#Pista1');
+
+                    document.getElementById('fondo').src = "img/Niko/01.png";
+
+                    break;
+
+                case 2:
+                    document.getElementById('fondo').src = "img/Niko/02.png";
+
+                    break;
+
+                case 3:
+                    document.getElementById('fondo').src = "img/Niko/03.png";
+                    break;
+
+                case 4:
+                    document.getElementById('fondo').src = "img/Niko/04.png";
+                    break;
+
+                case 5:
+                    document.getElementById('fondo').src = "img/Niko/05.png";
+
+                    break;
+
+
+            }
+
+
+
+            switch (conteo1) {
+                case 1:
+                    //window.location.assign("./index.html#Pista1")
+                    //$(location).attr('href','./index.html#Pista1');
+
+                    document.getElementById('cambiar').src = "img/Puntos/01.png";
+
+                    break;
+
+                case 2:
+                    document.getElementById('cambiar').src = "img/Puntos/02.png";
+
+                    break;
+
+                case 3:
+                    document.getElementById('cambiar').src = "img/Puntos/03.png";
+                    break;
+
+                case 4:
+                    document.getElementById('cambiar').src = "img/Puntos/04.png";
+                    break;
+
+                case 5:
+                    document.getElementById('cambiar').src = "img/Puntos/05.png";
+
+                    break;
+
+                case 6:
+                    document.getElementById('cambiar').src = "img/Puntos/06.png";
+                    break;
+
+                case 7:
+                    document.getElementById('cambiar').src = "img/Puntos/07.png";
+                    break;
+
+                case 8:
+                    document.getElementById('cambiar').src = "img/Puntos/08.png";
+
+                    break;
+
+                case 9:
+                    document.getElementById('cambiar').src = "img/Puntos/09.png";
+                    break;
+
+                case 10:
+                    document.getElementById('cambiar').src = "img/Puntos/10.png";
+                    break;
+
+                case 11:
+                    document.getElementById('cambiar').src = "img/Puntos/11.png";
+                    break;
+
+                case 12:
+                    document.getElementById('cambiar').src = "img/Puntos/12.png";
+                    window.location.assign("./index.html#Fin")
+                    break;
+
+            }    // } 
+
+            var random2;
+
+            random2 = Math.floor((Math.random() * preguntas.length) + 0);
+
+            /*alert(preguntas[random]); 
+            console.log(preguntas[random])*/
+            $("#pregunta1").text(preguntas[random2].pregunta);
+            $("#respuestauno").text(preguntas[random2].respuestauno[1]);
+            $("#respuestados").text(preguntas[random2].respuestados[1]);
+            $("#respuestatres").text(preguntas[random2].respuestatres[1]);
+            seleccionres = preguntas[random2];
+
+            preguntas.splice(random2, 1)
+
+
+
+
+
+
+            $("#popupSI").popup("close")
+            $("#popupNO").popup("close")
+            //$('#pregunta').href="#Pista"
+
+
+
+
+
+        } else
+
+            switch ($(this).attr('id')) {
+                case 'respuestauno':
+                    console.log(seleccionres.respuestauno[2]);
+                    if (seleccionres.respuestauno[2]) {
+                        console.log("sep");
+                        conteo1++
+                        document.getElementById("respuestauno").href = "#popupSI"
+
+                    } else {
+                        console.log("nop")
+                        document.getElementById("respuestauno").href = "#popupNO"
+                    }
+                    break;
+
+                case 'respuestados':
+                    if (seleccionres.respuestados[2]) {
+                        conteo1++
+                        console.log("sep");
+                        document.getElementById("respuestados").href = "#popupSI"
+
+                    } else {
+                        console.log("nop")
+                        document.getElementById("respuestados").href = "#popupNO"
+                    }
+                    break;
+
+                case 'respuestatres':
+                    if (seleccionres.respuestatres[2]) {
+                        console.log("sep");
+                        conteo1++
+                        document.getElementById("respuestatres").href = "#popupSI"
+
+                    } else {
+                        console.log("nop")
+                        document.getElementById("respuestatres").href = "#popupNO"
+                    }
+                    break;
+
+            }
 
 });
