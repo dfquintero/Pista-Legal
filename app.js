@@ -32,92 +32,92 @@ var preguntas = [
                 {
                     pregunta: "Marque la respuesta correcta de las finalidades del lavado de activos",
                     respuestauno: ["respuestauno",
-                                       "Obtener dinero ilegal, realizar conductas ilícitas.",
+                                       "Obtener dinero ilegal, realizar conductas ilícitas",
                                        false],
                     respuestados: ["respuestados",
-                                       "Financiamiento al terrorismo, enriquecimiento ilícito, ahorros injustificados, adquisición de bienes, ocultamiento de conductas.",
+                                       "Financiamiento al terrorismo, enriquecimiento ilícito, ahorros injustificados, adquisición de bienes, ocultamiento de conductas",
                                        true],
                     respuestatres: ["respuestatres",
-                                        "Conseguir socios a través de cadenas.",
+                                        "Conseguir socios a través de cadenas",
                                         false]
 
                 },
                 {
                     pregunta: "¿Si una empresa que ya no está en funcionamiento, desea ser accionista de nuestra compañía pero se ha detectado que tiene nexos con organizaciones de lavado de activos que debemos hacer?",
                     respuestauno: ["respuestauno",
-                                       "Reporto a la UIAF y a la fiscalía.",
+                                       "Reporto a la UIAF y a la fiscalía",
                                        true],
                     respuestados: ["respuestados",
-                                       "Investigo sobre el reporte negativo del tercero.",
+                                       "Investigo sobre el reporte negativo del tercero",
                                        false],
                     respuestatres: ["respuestatres",
-                                       "Hago caso omiso a la solicitud de la otra compañía.",
+                                       "Hago caso omiso a la solicitud de la otra compañía",
                                        false]
 
                 },
                 {
                     pregunta: "¿Cuál es el primero paso para implementar SIPLAFT ?",
                     respuestauno: ["respuestauno",
-                                       "Contar con oficial de cumplimiento en la compañía..",
+                                       "Contar con oficial de cumplimiento en la compañía",
                                        false],
                     respuestados: ["respuestados",
                                        "Solicitar el código de la UIAF",
                                        true],
                     respuestatres: ["respuestatres",
-                                        "Todas las anteriores.",
+                                        "Todas las anteriores",
                                         false]
 
                 },
                 {
-                    pregunta: "¿Cuáles son los riesgos asociados a la LA/FT. ?",
+                    pregunta: "¿Cuáles son los riesgos asociados a la LA/FT ?",
                     respuestauno: ["respuestauno",
-                                     "Reputaciones, legal, operativo y contagio.",
+                                     "Reputaciones, legal, operativo y contagio",
                                       false],
                     respuestados: ["respuestados",
-                                     "Legal, operativo, inspección, riesgo.",
+                                     "Legal, operativo, inspección, riesgo",
                                      false],
                     respuestatres: ["respuestatres",
-                                     "Daño de imagen, reporte ante la UIAF, reporte en lista Clinton.",
+                                     "Daño de imagen, reporte ante la UIAF, reporte en lista Clinton",
                                    true]
 
 
 
                 },
                 {
-                    pregunta: "¿Que son factores de riesgo. ?",
+                    pregunta: "¿Que son factores de riesgo?",
                     respuestauno: ["respuestauno",
-                                  "Operaciones sospechosas.",
+                                  "Operaciones sospechosas",
                                   true],
                     respuestados: ["respuestados",
                                    "Transacciones no justificadas",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Enriquecimiento ilícito.",
+                                   "Enriquecimiento ilícito",
                                    false]
 
 
 
                 },
                 {
-                    pregunta: "¿Cuales es el objetivo de implementar SIPLAFT en la compañía. ?",
+                    pregunta: "¿Cuales es el objetivo de implementar SIPLAFT en la compañía?",
                     respuestauno: ["respuestauno",
-                                  "Riesgo reputacional.",
+                                  "Riesgo reputacional",
                                   false],
                     respuestados: ["respuestados",
-                                   "Prevención de lavado de activos y financiación al terrorismo.",
+                                   "Prevención de lavado de activos y financiación al terrorismo",
                                    true],
                     respuestatres: ["respuestatres",
-                                   "Blindaje en la compañía.",
+                                   "Blindaje en la compañía",
                                    false]
 
                 },
                 {
                     pregunta: "Uno de los intereses de las organizaciones delincuenciales es:",
                     respuestauno: ["respuestauno",
-                                  " Cooperacion Internacional.",
+                                  " Cooperacion Internacional",
                                   false],
                     respuestados: ["respuestados",
-                                   "Divulgación de información.",
+                                   "Divulgación de información",
                                    false],
                     respuestatres: ["respuestatres",
                                    "Mezclar dinero licito con dinero ilícito",
@@ -127,209 +127,209 @@ var preguntas = [
                 {
                     pregunta: "¿Qué es la Financiación del Terrorismo?",
                     respuestauno: ["respuestauno",
-                                  "Acto para proporcionar apoyo financiero a organizaciones terroristas.",
+                                  "Acto para proporcionar apoyo financiero a organizaciones terroristas",
                                   true],
                     respuestados: ["respuestados",
-                                   "Entregar Informacion a las autoridades.",
+                                   "Entregar Informacion a las autoridades",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Convenios con entidades investigadas por la UIAF.",
+                                   "Convenios con entidades investigadas por la UIAF",
                                    false]
 
                 },
                 {
                     pregunta: "Indique cuales son los delitos que enmarca el LA/FT.",
                     respuestauno: ["respuestauno",
-                                  "Daño en bien ajeno, hurto, lavado de activos, homicidio.",
+                                  "Daño en bien ajeno, hurto, lavado de activos, homicidio",
                                   false],
                     respuestados: ["respuestados",
-                                   " Lesiones, enriquecimiento ilícito, extinción de dominio.",
+                                   " Lesiones, enriquecimiento ilícito, extinción de dominio",
                                    false],
                     respuestatres: ["respuestatres",
-                                   " Trata de personas, terrorismo, secuestro, extorsión, lavado de activos.",
+                                   " Trata de personas, terrorismo, secuestro, extorsión, lavado de activos",
                                    true]
 
                 },
                 {
-                    pregunta: "¿Como se puede prevenir la financiación el LA/FT. ?",
+                    pregunta: "¿Como se puede prevenir la financiación el LA/FT?",
                     respuestauno: ["respuestauno",
-                                  "Reportando las operaciones sospechosas.",
+                                  "Reportando las operaciones sospechosa",
                                   false],
                     respuestados: ["respuestados",
-                                   "Consultando base de datos de la UIAF.",
+                                   "Consultando base de datos de la UIAF",
                                    true],
                     respuestatres: ["respuestatres",
-                                   " Todas las anteriores.",
+                                   " Todas las anteriores",
                                    false]
 
                 },
                 {
                     pregunta: "¿Cuál es el mecanismo idóneo para reportar una posible actividad sospechosa?",
                     respuestauno: ["respuestauno",
-                                  "Reporte de operación sospechosa.",
+                                  "Reporte de operación sospechosa",
                                   true],
                     respuestados: ["respuestados",
-                                   "Reporte de proceso investigaciones.",
+                                   "Reporte de proceso investigaciones",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Reporte administrativo.",
+                                   "Reporte administrativo",
                                    false]
 
                 },
                 {
-                    pregunta: "En caso de que le ofrezcan transportar un envío sin la documentación legal exigida usted que haría.",
+                    pregunta: "En caso de que le ofrezcan transportar un envío sin la documentación legal exigida usted que haría",
                     respuestauno: ["respuestauno",
-                                  "Reporta al oficial de cumplimento.",
+                                  "Reporta al oficial de cumplimento",
                                   true],
                     respuestados: ["respuestados",
-                                   "Acepta la propuesta.",
+                                   "Acepta la propuesta",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Informa a un amigo.",
+                                   "Informa a un amigo",
                                    false]
 
                 },
 
                 {
-                    pregunta: "¿Que es la UIAF ?",
+                    pregunta: "¿Que es la UIAF?",
                     respuestauno: ["respuestauno",
-                                  "Entidad reguladora de lavado de activos.",
+                                  "Entidad reguladora de lavado de activos",
                                   false],
                     respuestados: ["respuestados",
-                                   "Institución encargada de vigilar las compañías.",
+                                   "Institución encargada de vigilar las compañías",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Es la Unidad de información y análisis financiero.",
+                                   "Es la Unidad de información y análisis financiero",
                                    true]
 
                 },
                 {
-                    pregunta: "¿De las siguientes cual considera que es una operación sospechosa.",
+                    pregunta: "De las siguientes cual considera que es una operación sospechosa",
                     respuestauno: ["respuestauno",
-                                  "Sacar dinero de la caja menor.",
+                                  "Sacar dinero de la caja menor",
                                   false],
                     respuestados: ["respuestados",
-                                   "Engañar al jefe con un permiso.",
+                                   "Engañar al jefe con un permiso",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Celebrar un contrato con un narcotraficante.",
+                                   "Celebrar un contrato con un narcotraficante",
                                    true]
 
                 },
                 {
                     pregunta: "¿Cuáles son los casos más frecuentes de incidencias o presencia de casos de lavado de activos?",
                     respuestauno: ["respuestauno",
-                                  " Todas las siguientes.",
+                                  " Todas las siguientes",
                                   true],
                     respuestados: ["respuestados",
-                                   "Con los proveedores.",
+                                   "Con los proveedores",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Con los clientes.",
+                                   "Con los clientes",
                                    false]
 
                 },
                 {
                     pregunta: "Una de las modalidades de lavado de activos es",
                     respuestauno: ["respuestauno",
-                                  " Compra y venta de finca raíz.",
+                                  " Compra y venta de finca raíz",
                                   true],
                     respuestados: ["respuestados",
                                    "Compra de alimentos",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Compra de armas.",
+                                   "Compra de armas",
                                    true]
 
                 },
                 {
                     pregunta: "En caso dado de que le giren un dinero desde el exterior usted podría incurrir en:",
                     respuestauno: ["respuestauno",
-                                  " Lavado de activos.",
+                                  " Lavado de activos",
                                   true],
                     respuestados: ["respuestados",
-                                   "Evasión de impuestos.",
+                                   "Evasión de impuestos",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Ayuda de un amigo.",
+                                   "Ayuda de un amigo",
                                    false]
 
                 },
                 {
                     pregunta: "¿Como se lavan activos?",
                     respuestauno: ["respuestauno",
-                                  " Por movimiento de dinero en cuentas bancarias.",
+                                  " Por movimiento de dinero en cuentas bancarias",
                                   false],
                     respuestados: ["respuestados",
-                                   "Movimientos de bienes a través de negocios.",
+                                   "Movimientos de bienes a través de negocios",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Todas las anteriores.",
+                                   "Todas las anteriores",
                                    true]
 
                 },
                 {
                     pregunta: "Los negocios pueden ser involucrados directa o indirectamente en actividades ilegales con propuestas económicas atractivas.",
                     respuestauno: ["respuestauno",
-                                  " Falso.",
+                                  " Falso",
                                   false],
                     respuestados: ["respuestados",
-                                   "Verdadero.",
+                                   "Verdadero",
                                    true],
                     respuestatres: ["respuestatres",
-                                   "Ns/Nr.",
+                                   "Ns/Nr",
                                    false]
 
                 },
                 {
                     pregunta: "El dinero Ilícito crea escenarios de competencia desleal.",
                     respuestauno: ["respuestauno",
-                                  " Falso.",
+                                  " Falso",
                                   false],
                     respuestados: ["respuestados",
-                                   "Verdadero.",
+                                   "Verdadero",
                                    true],
                     respuestatres: ["respuestatres",
-                                   "Ns/Nr.",
+                                   "Ns/Nr",
                                    false]
 
                 },
                 {
-                    pregunta: "El riesgo de lavado de activos solo afecta a grandes empresas.",
+                    pregunta: "El riesgo de lavado de activos solo afecta a grandes empresas",
                     respuestauno: ["respuestauno",
-                                  " Falso.",
+                                  " Falso",
                                   true],
                     respuestados: ["respuestados",
-                                   "Verdadero.",
+                                   "Verdadero",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Ns/Nr.",
+                                   "Ns/Nr",
                                    false]
 
                 },
                 {
-                    pregunta: "¿Que procesos penales implica la empresa al estar involucrado con actividades que promuevan lavado de activos?",
+                    pregunta: "¿Que consecuencias le puede traer a una empresa estar involucrada con actividades que promueven el lavado de dinero?",
                     respuestauno: ["respuestauno",
-                                  " Cancelación de licencias.",
+                                  " Cancelación de licencias",
                                   false],
                     respuestados: ["respuestados",
-                                   "Perdida del patrimonio.",
+                                   "Perdida del patrimonio",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Todas las anteriores.",
+                                   "Todas las anteriores",
                                    true]
 
                 },
                 {
                     pregunta: "Indique cual es el procedimiento de análisis con clientes, proveedores y/o accionistas.",
                     respuestauno: ["respuestauno",
-                                  " Bases de datos del gobierno.",
+                                  " Bases de datos del gobierno",
                                   false],
                     respuestados: ["respuestados",
-                                   "Datos de otras UIAF.",
+                                   "Datos de otras UIAF",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Todas las anteriores.",
+                                   "Todas las anteriores",
                                    true]
 
                 },
@@ -347,9 +347,10 @@ var seleccionres,
 
 $("a").click(function (evento) {
 
-    if (preguntas.length === 10) {
+    if (preguntas.length === 10) {        
         window.location.assign("./index.html#Over")
         //window.location.reload();
+        
     } else
         if ($(this).attr('id') === "pregunta") {
 
