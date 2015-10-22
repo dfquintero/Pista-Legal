@@ -1,6 +1,6 @@
 var preguntas = [
     {
-        pregunta: "Indique cual de los siguientes mecanismos son utilizados para reportar una actividad sospechosa",
+        pregunta: "Indique cual de los siguientes mecanismos es utilizado para reportar una actividad sospechosa",
         respuestauno: ["respuestauno",
                            "Llamar a la línea de emergencia de Servientrega #966",
                            false],
