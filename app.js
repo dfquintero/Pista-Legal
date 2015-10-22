@@ -1,6 +1,6 @@
 var preguntas = [
     {
-        pregunta: "Indique cuales de las siguientes respuestas son utilizadas para reportar una actividad sospechosa",
+        pregunta: "Indique cual de los siguientes mecanismos son utilizados para reportar una actividad sospechosa",
         respuestauno: ["respuestauno",
                            "Llamar a la línea de emergencia de Servientrega #966",
                            false],
@@ -30,7 +30,7 @@ var preguntas = [
 
                 },
                 {
-                    pregunta: "Marque la respuesta correcta de las finalidades del lavado de activos",
+                    pregunta: "Cual es la finalidad del lavado de activos ",
                     respuestauno: ["respuestauno",
                                        "Obtener dinero ilegal, realizar conductas ilícitas",
                                        false],
@@ -45,7 +45,7 @@ var preguntas = [
                 {
                     pregunta: "¿Si una empresa que ya no está en funcionamiento, desea ser accionista de nuestra compañía pero se ha detectado que tiene nexos con organizaciones de lavado de activos que debemos hacer?",
                     respuestauno: ["respuestauno",
-                                       "Reporto a la UIAF y a la fiscalía",
+                                       "Reporto al oficial de cumpliento de la compañia",
                                        true],
                     respuestados: ["respuestados",
                                        "Investigo sobre el reporte negativo del tercero",
@@ -56,7 +56,7 @@ var preguntas = [
 
                 },
                 {
-                    pregunta: "¿Cuál es el primero paso para implementar SIPLAFT ?",
+                    pregunta: "¿Cuál es el primer paso para implementar SIPLAFT ?",
                     respuestauno: ["respuestauno",
                                        "Contar con oficial de cumplimiento en la compañía",
                                        false],
@@ -204,7 +204,7 @@ var preguntas = [
 
                 },
                 {
-                    pregunta: "De las siguientes cual considera que es una operación sospechosa",
+                    pregunta: "De las siguientes acciones cual considera que es una operación sospechosa",
                     respuestauno: ["respuestauno",
                                   "Sacar dinero de la caja menor",
                                   false],
@@ -212,7 +212,7 @@ var preguntas = [
                                    "Engañar al jefe con un permiso",
                                    false],
                     respuestatres: ["respuestatres",
-                                   "Celebrar un contrato con un narcotraficante",
+                                   "Realizar movimientos financieros injustificados ",
                                    true]
 
                 },
